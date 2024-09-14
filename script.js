@@ -20,6 +20,15 @@ function hideImage() {
     var infoPopup = document.getElementById('info-popup');
     infoPopup.style.display = 'none';  // Esconde o pop-up
 }
+
+document.getElementById('aldeia1').addEventListener('click', function() {
+    window.location.href = 'aldeia1.html'; // Redireciona para a página da aldeia
+});
+
+// Captura eventos de toque para dispositivos móveis
+document.getElementById('aldeia1').addEventListener('touchstart', function() {
+    window.location.href = 'aldeia1.html';
+});
 // Captura eventos de toque para dispositivos móveis
 document.getElementById('aldeia1').addEventListener('touchstart', function() {
     window.location.href = 'aldeia1.html';
