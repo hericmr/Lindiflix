@@ -20,3 +20,7 @@ function hideImage() {
     var infoPopup = document.getElementById('info-popup');
     infoPopup.style.display = 'none';  // Esconde o pop-up
 }
+// Captura eventos de toque para dispositivos móveis
+document.getElementById('aldeia1').addEventListener('touchstart', function() {
+    window.location.href = 'aldeia1.html';
+});
