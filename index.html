@@ -1,8 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <meta name="description" content="Página que reúne os vídeos feitos por estudantes da LINDI, apresentando informações e vídeos sobre as aldeias e seus professores.">
     <meta name="keywords" content="LINDI, vídeos, aldeias, educação, professores, estudantes">
     <meta name="author" content="Seu Nome">
@@ -16,6 +18,14 @@
     <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 288000 194399.99"
+=======
+    <title>Mapa de São Paulo Interativo</title>
+    <!-- Referência ao CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 288000 194399.99">
+>>>>>>> 78d47feba8f892d613fcbc3d44ef1d40cdb9267d
         id="svg2"
         version="1.1">
         
@@ -70,10 +80,29 @@
    class="fil2"
    id="uf_35" />
 
+<<<<<<< HEAD
    <circle cx="199000" cy="150000" r="1700" fill="green" stroke="black" stroke-width="2" 
    onmouseover="showInfo('aldeia1')" 
    onmouseout="hideInfo()" 
    onclick="redirectToVideoPage('aldeia1')" /> <!-- Redireciona para o vídeo da aldeia1 -->
+=======
+<circle cx="199000" cy="150000" r="1700" fill="red" stroke="black" stroke-width="2"/>
+
+<g id="aldeia1" class="clickable-area" onclick="redirectToVideo('aldeia1')">
+    <!-- Desenho da área da aldeia 1 -->
+</g>
+<g id="aldeia2" class="clickable-area" onclick="redirectToVideo('aldeia2')">
+    <!-- Desenho da área da aldeia 2 -->
+</g>
+<!-- Adicione mais áreas conforme necessário -->
+
+
+<circle cx="199000" cy="150000" r="1700" fill="red" stroke="black" stroke-width="2" class="clickable-area"
+onmouseover="showImage(event)" 
+onmouseout="hideImage()" 
+onclick="redirectToPage('aldeia1')" />  <!-- Redireciona ao clicar no círculo -->
+
+>>>>>>> 78d47feba8f892d613fcbc3d44ef1d40cdb9267d
 
    <circle cx="189000" cy="160000" r="1700" fill="green" stroke="black" stroke-width="2" 
    onmouseover="showInfo('aldeia2')" 

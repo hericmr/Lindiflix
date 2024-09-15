@@ -56,3 +56,12 @@
     margin: 0;
     font-size: 14px;
 }
+
+clickable-area {
+    fill: red;
+    cursor: pointer;
+}
+
+.clickable-area:hover {
+    fill: blue;
+}
