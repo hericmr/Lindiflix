@@ -53,7 +53,7 @@ function showInfo(aldeiaId) {
     popup.style.display = 'block';
 }
 
-<<<<<<< HEAD
+
 // Função para esconder o pop-up
 function hideInfo() {
     const popup = document.getElementById('info-popup');
@@ -73,23 +73,3 @@ const aldeiaData = {
         description: 'Aldeia Jejyty'
     }
 };
-=======
-function hideImage() {
-    console.log('Ocultando informação');
-    var infoPopup = document.getElementById('info-popup');
-    infoPopup.style.display = 'none';  // Esconde o pop-up
-}
-
-document.getElementById('aldeia1').addEventListener('click', function() {
-    window.location.href = 'aldeia1.html'; // Redireciona para a página da aldeia
-});
-
-// Captura eventos de toque para dispositivos móveis
-document.getElementById('aldeia1').addEventListener('touchstart', function() {
-    window.location.href = 'aldeia1.html';
-});
-// Captura eventos de toque para dispositivos móveis
-document.getElementById('aldeia1').addEventListener('touchstart', function() {
-    window.location.href = 'aldeia1.html';
-});
->>>>>>> 78d47feba8f892d613fcbc3d44ef1d40cdb9267d
