@@ -53,7 +53,6 @@ function showInfo(aldeiaId) {
     popup.style.display = 'block';
 }
 
-
 // Função para esconder o pop-up
 function hideInfo() {
     const popup = document.getElementById('info-popup');
