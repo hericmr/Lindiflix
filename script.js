@@ -7,8 +7,8 @@ function redirectToHTML(aldeiaId) {
 function redirectToVideoPage(aldeiaId) {
     const videoLinks = {
         'aldeia1': 'https://www.youtube.com/embed/5XqSBaVYfBM?si=GWLZgaRfXA-zyTaA',
-        'aldeia2': 'https://www.youtube.com/embed/A79kDuycPs4', 
-        'aldeia3': 'https://youtu.be/rqp1SwCDnfc',
+        'aldeia2': 'https://www.youtube.com/embed/A79kDuycPs4',
+        'aldeia3': 'https://www.youtube.com/embed/rqp1SwCDnfc',
     };
 
     // Cria a página HTML com o link do vídeo correspondente
@@ -71,10 +71,10 @@ const aldeiaData = {
         image: 'joao.jpeg',
         title: 'Professor João Batista Ortega',
         description: 'Aldeia Jejyty'
-    }
+    },
     'aldeia3': {
         image: 'jonathan.jpeg',
-        title: 'Professoro Jonhathan Marcolino',
+        title: 'Professor Jonhathan Marcolino',
         description: 'Aldeia Tereguá'
     }
 };
