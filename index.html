@@ -3,9 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapa de São Paulo Interativo - Aldeias Lindi</title>
+    <meta name="description" content="Página que reúne os vídeos feitos por estudantes da LINDI, apresentando informações e vídeos sobre as aldeias e seus professores.">
+    <meta name="keywords" content="LINDI, vídeos, aldeias, educação, professores, estudantes">
+    <meta name="author" content="Seu Nome">
+    <meta name="robots" content="index, follow">
+    <title>Crianças das Aldeias Lindi</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<body>
 <body>
     
     <svg
@@ -65,35 +70,27 @@
    class="fil2"
    id="uf_35" />
 
-<circle cx="199000" cy="150000" r="1700" fill="red" stroke="black" stroke-width="2"/>
+   <circle cx="199000" cy="150000" r="1700" fill="green" stroke="black" stroke-width="2" 
+   onmouseover="showInfo('aldeia1')" 
+   onmouseout="hideInfo()" 
+   onclick="redirectToVideoPage('aldeia1')" /> <!-- Redireciona para o vídeo da aldeia1 -->
 
-<g id="aldeia1" class="clickable-area" onclick="redirectToVideo('aldeia1')">
-    <!-- Desenho da área da aldeia 1 -->
-</g>
-<g id="aldeia2" class="clickable-area" onclick="redirectToVideo('aldeia2')">
-    <!-- Desenho da área da aldeia 2 -->
-</g>
-<!-- Adicione mais áreas conforme necessário -->
+   <circle cx="189000" cy="160000" r="1700" fill="green" stroke="black" stroke-width="2" 
+   onmouseover="showInfo('aldeia2')" 
+   onmouseout="hideInfo()" 
+   onclick="redirectToVideoPage('aldeia2')" /> <!-- Redireciona para uma página HTML da aldeia2 -->
 
-
-<circle cx="199000" cy="150000" r="1700" fill="red" stroke="black" stroke-width="2" 
-onmouseover="showImage(event)" 
-onmouseout="hideImage()" 
-onclick="redirectToPage('aldeia1')" />  <!-- Redireciona ao clicar no círculo -->
-
-
-
+   <!-- Adicione mais círculos conforme necessário -->
 </svg>
 
-<!-- Caixa de texto com a imagem e o texto -->
-<div id="info-popup" class="info-box">
-<img src="claudinei.jpeg" alt="Claudinei" class="info-image" />
-<div class="info-text">
-    <p><strong>Professor Claudinei da Silva</strong></p>
-    <p><strong>Aldeia Nhanderepu</strong></p>
-</div>
+<div id="info-popup" class="info-box" style="display: none;">
+   <img id="info-image" src="" alt="Aldeia Info" class="info-image" />
+   <div class="info-text">
+       <p id="info-title"><strong></strong></p>
+       <p id="info-description"><strong></strong></p>
+   </div>
 </div>
 
-<script src="script.js"></script>
+<script src="script.js"></script> <!-- Referência ao arquivo JS externo -->
 </body>
 </html>
