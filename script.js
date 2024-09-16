@@ -82,7 +82,6 @@ const aldeiaData = {
     image: 'paula.jpeg',
     title: 'Professora Paula Aparecida Baptista',
     description: 'Aldeia Tangará'
-}
 };
 // Função para fechar o pop-up
 document.getElementById('close-popup').addEventListener('click', function() {
