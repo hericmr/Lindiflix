@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Página que reúne os vídeos feitos por estudantes da LINDI, apresentando informações e vídeos sobre as aldeias e seus professores.">
     <meta name="keywords" content="LINDI, vídeos, aldeias, educação, professores, estudantes">
+    <meta name="author" content="Seu Nome">
     <meta name="robots" content="index, follow">
     <title>Crianças das Aldeias Lindi</title>
     <link rel="stylesheet" href="style.css">
@@ -86,45 +87,39 @@ d="m 255916.64,129121.08 -3.01,-20.68 35.22,-48.97 9.06,14.14 33.23,21.77 -4.03,
 class="fil2"
 id="uf_35" />
 
-    <circle cx="69%" cy="77%" r="2%" fill="green" stroke="black" stroke-width="2" 
-        onmouseover="showInfo('aldeia1')" 
-        onmouseout="hideInfo()" 
-        ontouchstart="showInfo('aldeia1')" 
-        ontouchend="hideInfo()" 
-        onclick="redirectToVideoPage('aldeia1')">
-        <animate attributeName="r" from="1%" to="2%" dur="1s" repeatCount="indefinite" />
-    </circle>
+<circle cx="69%" cy="77%" r="1%" fill="green" stroke="black" stroke-width="2" 
+    onmouseover="showInfo('aldeia1')" 
+    onmouseout="hideInfo()" 
+    onclick="redirectToVideoPage('aldeia1')">
+    <animate attributeName="r" from="1%" to="2%" dur="1s" repeatCount="indefinite" />
+</circle>
 
-    <circle cx="189000" cy="160000" r="2500" fill="green" stroke="black" stroke-width="2" 
-        onmouseover="showInfo('aldeia2')" 
-        onmouseout="hideInfo()" 
-        ontouchstart="showInfo('aldeia2')" 
-        ontouchend="hideInfo()" 
-        onclick="redirectToVideoPage('aldeia2')">    
-        <animate attributeName="r" from="1%" to="2%" dur="1s" repeatCount="indefinite" />
-    </circle>
+<circle cx="189000" cy="160000" r="2500" fill="green" stroke="black" stroke-width="2" 
+    onmouseover="showInfo('aldeia2')" 
+    onmouseout="hideInfo()" 
+    onclick="redirectToVideoPage('aldeia2')">    
+    <animate attributeName="r" from="1%" to="2%" dur="1s" repeatCount="indefinite" />
+</circle>
 
-    <circle cx="129000" cy="100000" r="2500" fill="green" stroke="black" stroke-width="2" 
-        onmouseover="showInfo('aldeia3')" 
-        onmouseout="hideInfo()" 
-        ontouchstart="showInfo('aldeia3')" 
-        ontouchend="hideInfo()" 
-        onclick="redirectToVideoPage('aldeia3')"> 
-        <animate attributeName="r" from="1%" to="2%" dur="1s" repeatCount="indefinite" />
-    </circle>
+<circle cx="129000" cy="100000" r="2500" fill="green" stroke="black" stroke-width="2" 
+    onmouseover="showInfo('aldeia3')" 
+    onmouseout="hideInfo()" 
+    onclick="redirectToVideoPage('aldeia3')" > 
+    <animate attributeName="r" from="1%" to="2%" dur="1s" repeatCount="indefinite" />
+</circle>
 
-    <circle cx="72%" cy="75%" r="1%" fill="green" stroke="black" stroke-width="2" 
-        onmouseover="showInfo('aldeia4')" 
-        onmouseout="hideInfo()" 
-        ontouchstart="showInfo('aldeia4')" 
-        ontouchend="hideInfo()" 
-        onclick="redirectToVideoPage('aldeia4')"> 
-        <animate attributeName="r" from="1%" to="2%" dur="1s" repeatCount="indefinite" />
-    </circle>
-        
-    </svg>
+<circle cx="72%" cy="75%" r="1%" fill="green" stroke="black" stroke-width="2" 
+    onmouseover="showInfo('aldeia4')" 
+    onmouseout="hideInfo()" 
+    onclick="redirectToVideoPage('aldeia4')" > 
+    <animate attributeName="r" from="1%" to="2%" dur="1s" repeatCount="indefinite" />
+</circle>
 
-    <div id="info-popup" class="info-box">
+<!-- Adicione mais círculos conforme necessário -->
+</svg>
+
+    <div id="info-popup" class="info-box" style="display: none;">
+        <div class="info-content"></div>
        <img id="info-image" src="" alt="Aldeia Info" class="info-image" />
        <div class="info-text">
            <p id="info-title"><strong></strong></p>
