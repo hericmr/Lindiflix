@@ -9,6 +9,7 @@ function redirectToVideoPage(aldeiaId) {
         'aldeia1': 'https://www.youtube.com/embed/5XqSBaVYfBM?si=GWLZgaRfXA-zyTaA',
         'aldeia2': 'https://www.youtube.com/embed/A79kDuycPs4',
         'aldeia3': 'https://www.youtube.com/embed/rqp1SwCDnfc',
+        'aldeia4': 'https://youtu.be/aVnLAbow-kY',
     };
 
     // Cria a página HTML com o link do vídeo correspondente
@@ -76,6 +77,11 @@ const aldeiaData = {
         image: 'jonathan.jpeg',
         title: 'Professor Jonhathan Marcolino',
         description: 'Aldeia Tereguá'
+    },
+    'aldeia4': {
+        image: 'paula.jpeg',
+        title: 'Professora Paula Aparecida Baptista',
+        description: 'Aldeia Tangará'
     }
 };
 // Função para fechar o pop-up

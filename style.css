@@ -56,11 +56,9 @@
     margin: 0;
     font-size: 14px;
 }
-<<<<<<< HEAD
 /* Animação que faz os círculos pulsarem */
 @keyframes pulse {
-    0% {
-        r: 1700; /* Tamanho original do círculo */
+
     }
     50% {
         r: 2000; /* Expande o círculo */
@@ -68,11 +66,11 @@
     100% {
         r: 1700; /* Retorna ao tamanho original */
     }
-}
+
 
 circle {
     animation: pulse 2s infinite; /* Aplica a animação aos círculos */
-    transition: transform 0.2s;
+    transition: transform 0.3s;
 }
 /* Estilos do corpo e SVG omitidos para foco no pop-up */
 
@@ -83,7 +81,7 @@ circle {
     left: 50%;
     top: 30%;
     transform: translate(-50%, -50%); /* Centraliza horizontal e verticalmente */
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(232, 247, 228, 0.9);
     border: 2px solid #000;
     padding: 20px;
     border-radius: 8px;
@@ -109,5 +107,3 @@ circle {
     background-color: #45a049;
 }
 
-=======
->>>>>>> 682ea0e6ca7d24af0d8ac126bb52d41e4ee99591
