@@ -56,6 +56,7 @@
     margin: 0;
     font-size: 14px;
 }
+<<<<<<< HEAD
 /* Animação que faz os círculos pulsarem */
 @keyframes pulse {
     0% {
@@ -108,3 +109,5 @@ circle {
     background-color: #45a049;
 }
 
+=======
+>>>>>>> 682ea0e6ca7d24af0d8ac126bb52d41e4ee99591
