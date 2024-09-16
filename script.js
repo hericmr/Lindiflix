@@ -9,7 +9,11 @@ function redirectToVideoPage(aldeiaId) {
         'aldeia1': 'https://www.youtube.com/embed/5XqSBaVYfBM?si=GWLZgaRfXA-zyTaA',
         'aldeia2': 'https://www.youtube.com/embed/A79kDuycPs4',
         'aldeia3': 'https://www.youtube.com/embed/rqp1SwCDnfc',
+<<<<<<< HEAD
         'aldeia4': 'https://youtu.be/aVnLAbow-kY',
+=======
+                'aldeia4': 'https://youtu.be/aVnLAbow-kY',
+>>>>>>> 52e6569687a0b7519f8875b4f17ea9b1447984f2
     };
 
     // Cria a página HTML com o link do vídeo correspondente
@@ -83,6 +87,10 @@ const aldeiaData = {
         title: 'Professora Paula Aparecida Baptista',
         description: 'Aldeia Tangará'
     }
+    'aldeia4'{
+    image: 'paula.jpeg',
+    title: 'Professora Paula Aparecida Baptista',
+    description: 'Aldeia Tangará'
 };
 // Função para fechar o pop-up
 document.getElementById('close-popup').addEventListener('click', function() {
