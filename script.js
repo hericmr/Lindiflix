@@ -78,3 +78,15 @@ const aldeiaData = {
         description: 'Aldeia Tereguá'
     }
 };
+// Função para fechar o pop-up
+document.getElementById('close-popup').addEventListener('click', function() {
+    document.getElementById('oi-popup').style.display = 'none';
+});
+
+// Opcional: permite fechar o pop-up clicando fora da caixa
+window.onclick = function(event) {
+    const popup = document.getElementById('info-popup');
+    if (event.target === popup) {
+        popup.style.display = 'none';
+    }
+};
