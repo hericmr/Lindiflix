@@ -9,7 +9,8 @@ function redirectToVideoPage(aldeiaId) {
         'aldeia1': 'https://www.youtube.com/embed/5XqSBaVYfBM?si=GWLZgaRfXA-zyTaA',
         'aldeia2': 'https://www.youtube.com/embed/A79kDuycPs4',
         'aldeia3': 'https://www.youtube.com/embed/rqp1SwCDnfc',
-        'aldeia4': 'https://www.youtube.com/embed/aVnLAbow-kY?si=6xU4QtVG5mru6ZHO'
+        'aldeia4': 'https://www.youtube.com/embed/aVnLAbow-kY?si=6xU4QtVG5mru6ZHO',
+        'aldeia5': 'https://www.youtube.com/embed/yum4n1kHsGE?si=iLLF-iJk4nSISgXu'
     };
 
     // Cria a página HTML com o link do vídeo correspondente
@@ -40,20 +41,49 @@ function redirectToVideoPage(aldeiaId) {
 }
 
 // Função para exibir o pop-up com a imagem e informações da aldeia
+// Função para exibir o pop-up com a imagem e informações da aldeia
 function showInfo(aldeiaId) {
     const popup = document.getElementById('info-popup');
-    const image = document.getElementById('info-image');
-    const title = document.getElementById('info-title');
-    const description = document.getElementById('info-description');
+    const content = document.getElementById('info-content');
+
+    // Limpa o conteúdo anterior
+    content.innerHTML = '';
 
     const data = aldeiaData[aldeiaId];
 
-    image.src = data.image;
-    title.textContent = data.title;
-    description.textContent = data.description;
+    // Verifica se há mais de um professor(a) e ajusta a exibição
+    if (Array.isArray(data)) {
+        // Caso haja múltiplos professores
+        data.forEach(professor => {
+            const professorInfo = `
+                <img src="${professor.image}" class="info-image" alt="${professor.title}" />
+                <div class="info-text">
+                    <p><strong>${professor.title}</strong></p>
+                    <p>${professor.description}</p>
+                </div>
+            `;
+            content.innerHTML += professorInfo;
+        });
+    } else {
+        // Caso seja apenas um professor(a)
+        const professorInfo = `
+            <img src="${data.image}" class="info-image" alt="${data.title}" />
+            <div class="info-text">
+                <p><strong>${data.title}</strong></p>
+                <p>${data.description}</p>
+            </div>
+        `;
+        content.innerHTML = professorInfo;
+    }
 
     popup.style.display = 'block';
 }
+
+// Função para fechar o pop-up
+document.getElementById('close-popup').addEventListener('click', function() {
+    document.getElementById('info-popup').style.display = 'none';
+});
+
 
 // Função para esconder o pop-up
 function hideInfo() {
@@ -62,28 +92,43 @@ function hideInfo() {
 }
 
 // Dados das aldeias, incluindo a imagem, o título e a descrição
+// Dados das aldeias, incluindo a imagem, o título e a descrição
 const aldeiaData = {
     'aldeia1': {
-        image: 'claudinei.jpeg',
+        image: 'fotos/claudinei.jpeg',
         title: 'Professor Claudinei da Silva',
         description: 'Aldeia Nhanderepu'
     },
     'aldeia2': {
-        image: 'joao.jpeg',
+        image: 'fotos/joao.jpeg',
         title: 'Professor João Batista Ortega',
         description: 'Aldeia Jejyty'
     },
     'aldeia3': {
-        image: 'jonathan.jpeg',
+        image: 'fotos/jonathan.jpeg',
         title: 'Professor Jonhathan Marcolino',
         description: 'Aldeia Tereguá'
     },
     'aldeia4': {
-        image: 'paula.jpeg',
+        image: 'fotos/paula.jpeg',
         title: 'Professora Paula Aparecida Baptista',
         description: 'Aldeia Tangará'
-    }
+    },
+    'aldeia5': [
+        {
+            image: 'fotos/iara.jpeg',
+            title: 'Professora Iara Mendonça Bolgarim',
+            description: 'Aldeia do Jaraguá'
+        },
+        {
+            image: 'fotos/marilene.jpeg',
+            title: 'Professora Marielene Mendonça Bolgarim',
+            description: 'Aldeia do Jaraguá'
+        }
+    ]
 };
+
+
 // Função para fechar o pop-up
 document.getElementById('close-popup').addEventListener('click', function() {
     document.getElementById('oi-popup').style.display = 'none';
