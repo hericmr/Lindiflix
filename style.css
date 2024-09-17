@@ -1,85 +1,101 @@
 
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            width: 100%;
-            box-sizing: border-box;
-        }
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
 
-        /* O SVG vai ocupar 100% da tela */
-        svg {
-            width: 100%;
-            height: 100vh; /* Ocupa toda a altura da viewport */
-            display: block;
-        }
-        body {
-            background-color: #b3d0ff;
-        }
+/* O SVG vai ocupar 100% da tela */
+svg {
+    width: 100%;
+    height: 100vh; /* Ocupa toda a altura da viewport */
+    display: block;
+}
+body {
+    background-color: #b3d0ff;
+}
 
-        /* Estilo da imagem que aparece ao passar o mouse */
-        #image-popup {
-            display: none; /* Inicialmente a imagem está escondida */
-            position: absolute;
-            top: 0;
-            left: 0;
-            max-width: 200px;
-            border: 2px solid black;
-            background-color: white;
-            z-index: 10;
-        }
-    
-      /* Estilo da caixa de texto com imagem e texto */
+/* Estilo da imagem que aparece ao passar o mouse */
+#image-popup {
+    display: none; /* Inicialmente a imagem está escondida */
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 200px;
+    border: 2px solid black;
+    background-color: white;
+    z-index: 10;
+}
+
+/* Estilo da caixa de texto com imagem e texto */
 .info-box {
-    display: none; /* Escondido por padrão */
-    position: fixed; /* Fixa no centro da tela */
-    left: 50%;
-    top: 30%;
-    transform: translate(-50%, -50%); /* Centraliza horizontal e verticalmente */
-    background-color: rgb(217, 248, 217);
-    border: 1px solid rgb(93, 161, 104);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
-    width: 300px; /* Largura fixa para o pop-up */
-    text-align: center;
+display: none; /* Escondido por padrão */
+position: fixed; /* Fixa no centro da tela */
+left: 50%;
+top: 30%;
+transform: translate(-50%, -50%); /* Centraliza horizontal e verticalmente */
+background-color: rgb(217, 248, 217);
+border: 1px solid rgb(93, 161, 104);
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+z-index: 1000;
+width: 300px; /* Largura fixa para o pop-up */
+text-align: center;
 }
 
 .info-image {
-    width: 100px; /* Tamanho da imagem */
-    height: auto;
-    margin-bottom: 10px;
+width: 100px; /* Tamanho da imagem */
+height: auto;
+margin-bottom: 10px;
 }
 
 .info-text p {
-    margin: 0;
-    font-size: 14px;
+margin: 0;
+font-size: 14px;
 }
 /* Animação que faz os círculos pulsarem */
 @keyframes pulse {
 
-    }
-    50% {
-        r: 2000; /* Expande o círculo */
-    }
-    100% {
-        r: 1700; /* Retorna ao tamanho original */
-    }
+}
+50% {
+r: 2000; /* Expande o círculo */
+}
+100% {
+r: 1700; /* Retorna ao tamanho original */
+}
 
 
 circle {
-    animation: pulse 2s infinite; /* Aplica a animação aos círculos */
-    transition: transform 0.3s;
+animation: pulse 2s infinite; /* Aplica a animação aos círculos */
+transition: transform 0.3s;
 }
 /* Estilos do corpo e SVG omitidos para foco no pop-up */
 
 /* Estilo da caixa de texto com imagem e texto */
 .info-box {
+display: block; /* Exibido por padrão ao abrir a página */
+position: fixed; /* Fixa no centro da tela */
+left: 30%;
+top: 50%;
+transform: translate(-50%, -50%); /* Centraliza horizontal e verticalmente */
+background-color: rgba(232, 247, 228, 0.9);
+border: 2px solid #000;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+z-index: 1000;
+width: 300px;
+text-align: center;
+}
+
+.bemvindo-box {
     display: block; /* Exibido por padrão ao abrir a página */
     position: fixed; /* Fixa no centro da tela */
     left: 50%;
-    top: 30%;
+    top: 50%;
     transform: translate(-50%, -50%); /* Centraliza horizontal e verticalmente */
     background-color: rgba(232, 247, 228, 0.9);
     border: 2px solid #000;
@@ -89,33 +105,34 @@ circle {
     z-index: 1000;
     width: 300px;
     text-align: center;
-}
+    }
+    
 
 /* Botão para fechar o pop-up */
 #close-popup {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 14px;
-    cursor: pointer;
-    margin-top: 10px;
+background-color: #4CAF50;
+color: white;
+border: none;
+padding: 10px 20px;
+text-align: center;
+font-size: 14px;
+cursor: pointer;
+margin-top: 10px;
 }
 
 #close-popup:hover {
-    background-color: #45a049;
+background-color: #45a049;
 }
 
 /* Ajustes para telas menores */
 @media (max-width: 600px) {
-    #info-popup {
-        width: 90%;
-        height: auto;
-        top: 10px;
-    }
-    .info-image {
-        width: 40%;
-        height: auto;
-    }
+#info-popup {
+width: 90%;
+height: auto;
+top: 10px;
+}
+.info-image {
+width: 40%;
+height: auto;
+}
 }
