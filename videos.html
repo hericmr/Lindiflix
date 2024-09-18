@@ -6,122 +6,7 @@
     <title>Vídeos das Aldeias</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            background-color: #000;
-            color: #fff;
-            font-family: 'Cinzel', sans-serif;
-        }
-        
-        .container {
-            margin-top: 50px;
-        }
-        .video-grid {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-        }
-        .video-item {
-            margin: 20px;
-            width: 45%;
-            max-width: 600px;
-            cursor: pointer;
-        }
-        .video-item iframe {
-            width: 100%;
-            height: 315px;
-        }
-        .video-info {
-            margin-top: 10px;
-            font-style: italic;
-            color: #bbb;
-        }
-        h1 {
-            text-align: center;
-            margin-bottom: 50px;
-        }
-        .popup {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.8);
-            justify-content: center;
-            align-items: center;
-            z-index: 1000;
-        }
-        .popup-content {
-            position: relative;
-            background: #333;
-            padding: 20px;
-            border-radius: 8px;
-            width: 80%;
-            max-width: 800px;
-        }
-        .popup-content iframe {
-            width: 100%;
-            height: 450px;
-        }
-        .popup-content .info {
-            color: #fff;
-            margin-top: 20px;
-        }
-        .popup-content .close-btn {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            background: #f00;
-            color: #fff;
-            border: none;
-            border-radius: 50%;
-            width: 30px;
-            height: 30px;
-            font-size: 20px;
-            cursor: pointer;
-        }
-    
-        /* Media queries para responsividade */
-        @media (max-width: 768px) {
-            .video-item {
-                width: 100%;
-            }
-            .popup-content iframe {
-                height: 315px;
-            }
-        }
-    
-        @media (max-width: 576px) {
-            .container {
-                margin-top: 30px;
-            }
-            .video-item {
-                margin: 10px 0;
-                width: 100%;
-            }
-            .popup-content iframe {
-                height: 250px;
-            }
-        /* Estilos gerais para o título da barra de navegação */
-.navbar-brand {
-  font-size: 24px; /* Tamanho normal para desktops */
-  white-space: nowrap; /* Evita quebra de linha */
-  overflow: hidden; /* Oculta o excesso de texto */
-  text-overflow: ellipsis; /* Adiciona reticências (...) caso o texto seja muito longo */
-}
-
-/* Ajuste para telas pequenas (celulares) */
-@media (max-width: 600px) {
-  .navbar-brand {
-    font-size: 18px; /* Diminui o tamanho da fonte para telas pequenas */
-    white-space: normal; /* Permite a quebra de linha se necessário */
-    word-wrap: break-word; /* Garante que o texto seja quebrado corretamente */
-  }
-}
-
-        }
-    </style>
+    <link rel="stylesheet" href="style_videos.css">
     
 </head>
 <body>
@@ -131,7 +16,7 @@
       <div class="container-fluid">
                 <a class="navbar-brand" href="#">
             <img src="lindi.png" alt="Logo Lindi" class="navbar-logo" alt="Logo Lindi">    
-            - Das crianças e jovens das Aldeias de São Paulo para o Mundo! 
+         Das crianças e jovens das Aldeias de São Paulo para o Mundo! 
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
