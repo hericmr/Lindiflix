@@ -129,6 +129,7 @@ const aldeiaData = {
 };
 
 
+
 // Função para fechar o pop-up
 document.getElementById('close-popup').addEventListener('click', function() {
     document.getElementById('oi-popup').style.display = 'none';

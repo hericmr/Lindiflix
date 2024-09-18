@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos das Aldeias</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #000; /* Fundo escuro estilo Netflix */
+            color: #fff;
+            font-family: 'Cinzel', sans-serif;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .video-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .video-item {
+            margin: 20px;
+            width: 45%;
+            max-width: 600px;
+            cursor: pointer; /* Adiciona o cursor de ponteiro ao clicar */
+        }
+        .video-item iframe {
+            width: 100%;
+            height: 315px;
+        }
+        .video-info {
+            margin-top: 10px;
+            font-style: italic;
+            color: #bbb;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        /* Estilos para o pop-up */
+        .popup {
+            display: none; /* Inicialmente oculto */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .popup-content {
+            position: relative;
+            background: #333;
+            padding: 20px;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 800px;
+        }
+        .popup-content iframe {
+            width: 100%;
+            height: 450px;
+        }
+        .popup-content .info {
+            color: #fff;
+            margin-top: 20px;
+        }
+        .popup-content .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #f00;
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+            <img src="lindi.png" alt="Logo Lindi" class="navbar-logo" alt="Logo Lindi">    
+            - Das crianças e jovens das Aldeias de São Paulo para o Mundo! 
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Mapa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Professores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+        <div class="video-grid">
+            <!-- Aldeia 1 -->
+            <div class="video-item" data-id="aldeia1">
+                <iframe src="https://www.youtube.com/embed/5XqSBaVYfBM?si=GWLZgaRfXA-zyTaA" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- Aldeia 2 -->
+            <div class="video-item" data-id="aldeia2">
+                <iframe src="https://www.youtube.com/embed/A79kDuycPs4" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- Aldeia 3 -->
+            <div class="video-item" data-id="aldeia3">
+                <iframe src="https://www.youtube.com/embed/rqp1SwCDnfc" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- Aldeia 4 -->
+            <div class="video-item" data-id="aldeia4">
+                <iframe src="https://www.youtube.com/embed/aVnLAbow-kY?si=6xU4QtVG5mru6ZHO" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <!-- Aldeia 5 -->
+            <div class="video-item" data-id="aldeia5">
+                <iframe src="https://www.youtube.com/embed/yum4n1kHsGE?si=iLLF-iJk4nSISgXu" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pop-up -->
+    <div class="popup" id="video-popup">
+        <div class="popup-content">
+            <button class="close-btn" id="close-popup">&times;</button>
+            <iframe id="popup-video" src="" frameborder="0" allowfullscreen></iframe>
+            <div class="info" id="popup-info"></div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

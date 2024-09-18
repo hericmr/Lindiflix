@@ -6,17 +6,48 @@
     <meta name="description" content="Página que reúne os vídeos feitos por estudantes da LINDI, apresentando informações e vídeos sobre as aldeias e seus professores.">
     <meta name="keywords" content="LINDI, vídeos, aldeias, educação, professores, estudantes">
     <meta name="robots" content="index, follow">
-    <title>Crianças das Aldeias Lindi</title>
+    <title>Das crianças e jovens das Aldeias de São Paulo para o Mundo! - Lindi</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- SVG dos círculos com animação (omitido para foco no pop-up) -->
-
+    <!-- navabar -->
+<!-- Navbar transparente -->
+<nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container-fluid">
+        <!-- Logo da Unifesp -->
+        <a class="navbar-brand" href="#">
+            <img src="https://www.unifesp.br/images/logos_unifesp/Unifesp-marca.png" alt="Logo Unifesp" class="navbar-logo">
+            Das crianças e jovens das Aldeias de São Paulo para o Mundo! -   
+            <img src="lindi.png" alt="Logo Lindi" class="navbar-logo" alt="Logo Lindi">    
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="videos.html">Vídeos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Professores</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contato</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+  
+  
     <!-- Pop-up com a mensagem inicial -->
     <div id="oi-popup" class="bemvindo-box">
        <div class="info-content">
-           <p><strong>Bem-vindo!</strong></p>
+           <p><strong>Olá!</strong></p>
            <p>Este site reúne alguns dos trabalhos produzidos pelos estudantes da Licenciatura Intercultural Indígena da UNIFESP em 2024. Clique nas localizações das aldeias para assistir aos vídeos das crianças mostrando o seu cotidiano, conhecimentos, brincadeiras e comunidades. Um convite para conhecer a diversidade dos povos originários de São Paulo.</p>
            <button id="close-popup">Fechar</button>
        </div>
