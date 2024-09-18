@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <style>
         body {
-            background-color: #000; /* Fundo escuro estilo Netflix */
+            background-color: #000;
             color: #fff;
             font-family: 'Cinzel', sans-serif;
         }
@@ -24,7 +24,7 @@
             margin: 20px;
             width: 45%;
             max-width: 600px;
-            cursor: pointer; /* Adiciona o cursor de ponteiro ao clicar */
+            cursor: pointer;
         }
         .video-item iframe {
             width: 100%;
@@ -39,9 +39,8 @@
             text-align: center;
             margin-bottom: 50px;
         }
-        /* Estilos para o pop-up */
         .popup {
-            display: none; /* Inicialmente oculto */
+            display: none;
             position: fixed;
             top: 0;
             left: 0;
@@ -80,6 +79,29 @@
             height: 30px;
             font-size: 20px;
             cursor: pointer;
+        }
+    
+        /* Media queries para responsividade */
+        @media (max-width: 768px) {
+            .video-item {
+                width: 100%;
+            }
+            .popup-content iframe {
+                height: 315px;
+            }
+        }
+    
+        @media (max-width: 576px) {
+            .container {
+                margin-top: 30px;
+            }
+            .video-item {
+                margin: 10px 0;
+                width: 100%;
+            }
+            .popup-content iframe {
+                height: 250px;
+            }
         }
     </style>
 </head>
