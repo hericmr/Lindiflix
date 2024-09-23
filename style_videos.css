@@ -105,7 +105,7 @@
 /* Ajuste para telas pequenas (celulares) */
 @media (max-width: 600px) {
   .navbar-brand {
-    font-size: 10px; /* Diminui o tamanho da fonte para telas pequenas */
+    font-size: 14px; /* Diminui o tamanho da fonte para telas pequenas */
     white-space: normal; /* Permite a quebra de linha se necessário */
     word-wrap: break-word; /* Garante que o texto seja quebrado corretamente */
   }
