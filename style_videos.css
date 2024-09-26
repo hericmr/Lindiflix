@@ -77,3 +77,24 @@ background: #2e2e2e; /* Tom mais claro */
         height: 200px;
     }
 }
+
+.navbar-brand {
+    font-size: 24px; /* Tamanho normal para desktops */
+    white-space: nowrap; /* Evita quebra de linha */
+    overflow: hidden; /* Oculta o excesso de texto */
+    text-overflow: ellipsis; /* Adiciona reticências (...) caso o texto seja muito longo */
+    }
+    
+    /* Ajuste para telas pequenas (celulares) */
+    @media (max-width: 600px) {
+    .navbar-brand {
+    font-size: 14px; /* Diminui o tamanho da fonte para telas pequenas */
+    white-space: normal; /* Permite a quebra de linha se necessário */
+    word-wrap: break-word; /* Garante que o texto seja quebrado corretamente */
+    }
+    }
+    
+    
+    .container {
+        flex-grow: 1; /* Força o conteúdo a ocupar todo o espaço disponível */
+    }
