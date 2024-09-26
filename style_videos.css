@@ -61,7 +61,7 @@ body {
 }
 
 /* Responsividade */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
     .video-box {
         width: 100%;
     }
