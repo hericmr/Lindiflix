@@ -3,42 +3,38 @@ body {
     background-color: #000;
     color: #fff;
     font-family: 'Cinzel', sans-serif;
-    margin: 0; /* Remove margens */
-    padding: 0; /* Remove paddings */
-    width: 100vw; /* Ocupa toda a largura da viewport */
-    overflow-x: hidden; /* Impede rolagem horizontal */
 }
 
 .intro-text {
     font-size: 16px;
     margin: 0;
     padding: 10px;
-    background: #1b1b1b; /* Tom mais claro */
+background: #1b1b1b; /* Tom mais claro */
     color: #ffffff;
     text-align: center;
 }
 
 .container {
-    margin-top: 20px;
-    padding: 0 10px; /* Espaçamento interno */
-    width: 100%;
+    margin-top: 50px;
 }
 
 /* Estilo dos vídeos e informações */
 .video-grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 /* Estilo dos itens de vídeo */
 .video-item {
-    margin: 10px 0; /* Reduz margens para se ajustar melhor em telas menores */
+    margin: 20px;
     width: 100%;
-    padding: 10px; /* Padding interno */
-    background: #001a09; /* Fundo leve para destacar o item */
-    border-radius: 10px; /* Bordas arredondadas */
+    max-width: 600px;
 }
+
+
+
+
 
 .bg-variant {
     background: #001a09; /* Tom mais claro */
@@ -48,58 +44,36 @@ body {
 .professor-info {
     text-align: center;
     padding: 10px;
-    background: rgba(0, 76, 0, 0.201); /* Fundo semitransparente */
+    background: rgba(0, 76, 0, 0.201);
     color: #ffffff;
-    border-radius: 5px; /* Bordas arredondadas */
+    border-radius: 0 0 0 0;
 }
 
 .professor-img {
-    width: 80px; /* Corrige a largura da imagem */
+    width: 80;
     border-radius: 20%;
     margin-bottom: 5px;
-}
+  }
 
 /* Estilo para o iframe */
 .video-item iframe {
     width: 100%;
-    height: 315px; /* Altura padrão para desktops */
+    height: 315px;
     border: none;
-    border-radius: 10px; /* Mantém o arredondamento igual ao contêiner */
 }
 
 /* Responsividade */
-
-/* Ajustes para tablets */
 @media (max-width: 768px) {
     .video-box {
         width: 100%;
     }
-    .video-item {
-        padding: 10px 5px; /* Reduz padding lateral */
-    }
     .video-item iframe {
-        height: 250px; /* Altura ajustada para tablets */
+        height: 250px;
     }
 }
 
-/* Ajustes para celulares */
 @media (max-width: 576px) {
-    .container {
-        margin-top: 10px;
-        padding: 0 5px;
-    }
-    .video-item {
-        margin: 0px 0; /* Reduz margens */
-        padding: 0px; /* Ajusta padding */
-    }
     .video-item iframe {
-        height: 200px; /* Altura reduzida para celulares */
+        height: 200px;
     }
-}
-
-/* Configurações para largura máxima ocupar 100% */
-.video-item,
-.container,
-.video-grid {
-    max-width: 100%; /* Garante que todo o layout ocupe 100% da tela */
 }
