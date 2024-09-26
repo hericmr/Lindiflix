@@ -89,8 +89,8 @@ body {
         padding: 0 5px;
     }
     .video-item {
-        margin: 5px 0; /* Reduz margens */
-        padding: 5px; /* Ajusta padding */
+        margin: 0px 0; /* Reduz margens */
+        padding: 0px; /* Ajusta padding */
     }
     .video-item iframe {
         height: 200px; /* Altura reduzida para celulares */
