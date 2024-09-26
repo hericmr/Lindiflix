@@ -9,14 +9,13 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 10px;
-    background: #141414; /* Tom mais claro */
+    background: #1c1c1c; /* Tom mais claro */
     color: #ffffff;
     text-align: center;
 }
 
 .container {
     margin-top: 50px;
-    display: fixed;
 }
 
 /* Estilo dos vídeos e informações */
@@ -43,14 +42,14 @@ body {
 .professor-info {
     text-align: center;
     padding: 10px;
-    background: rgba(0, 44, 0, 0.201);
+    background: rgba(0, 76, 0, 0.201);
     color: #ffffff;
     border-radius: 0 0 0 0;
 }
 
 .professor-img {
     width: 80;
-    border-radius: 20%;
+    border-radius: 25%;
     margin-bottom: 5px;
   }
 
