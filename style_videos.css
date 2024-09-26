@@ -9,7 +9,7 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 10px;
-background: #1b1b1b; /* Tom mais claro */
+background: #2e2e2e; /* Tom mais claro */
     color: #ffffff;
     text-align: center;
 }
@@ -45,7 +45,7 @@ background: #1b1b1b; /* Tom mais claro */
     text-align: center;
     padding: 10px;
     background: rgba(0, 76, 0, 0.201);
-    color: #ffffff;
+    color: #c7ffd9;
     border-radius: 0 0 0 0;
 }
 
