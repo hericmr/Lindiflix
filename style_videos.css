@@ -16,6 +16,7 @@ body {
 
 .container {
     margin-top: 50px;
+    display: fixed;
 }
 
 /* Estilo dos vídeos e informações */
@@ -49,7 +50,7 @@ body {
 
 .professor-img {
     width: 80;
-    border-radius: 25%;
+    border-radius: 20%;
     margin-bottom: 5px;
   }
 
