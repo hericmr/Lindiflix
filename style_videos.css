@@ -5,7 +5,7 @@ body {
 }
 
 .container {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 .video-grid {
     display: flex;
@@ -119,15 +119,9 @@ word-wrap: break-word; /* Garante que o texto seja quebrado corretamente */
 
 
 /* Vídeos e Professores */
-.video-item {
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .professor-img {
-    width: 100px;
+    width: 80px;
     border-radius: 20%;
     margin-bottom: 15px;
 }
@@ -164,9 +158,40 @@ word-wrap: break-word; /* Garante que o texto seja quebrado corretamente */
 
 /* Footer */
 footer {
-    background-color: #222;
+    background-color: #05622384;
     padding: 20px 0;
     text-align: center;
     width: 100%;
     bottom: 0;
+}
+
+
+/* Estilo para o container que engloba o vídeo e as informações */
+.video-container {
+    background-color: #004b0732; /* Cor de fundo para o bloco do vídeo e infos */
+    border-radius: 8px; /* Bordas arredondadas para um efeito mais suave */
+    padding: 5px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Alinhamento e estilo da imagem e informações do professor */
+
+
+/* Ajuste de tamanho dos vídeos */
+.video-container iframe {
+    width: 100%;
+    height: 315px; /* Tamanho padrão do vídeo */
+}
+
+/* Media Queries para responsividade */
+@media (max-width: 768px) {
+    .video-container iframe {
+        height: 250px;
+    }
+}
+
+@media (max-width: 576px) {
+    .video-container iframe {
+        height: 200px;
+    }
 }
