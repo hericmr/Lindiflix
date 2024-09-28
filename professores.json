@@ -5,17 +5,6 @@
         "professor": "Jonathan Marcolino",
         "aldeia": "Tereguá",
         "youtube": "https://www.youtube.com/embed/rqp1SwCDnfc"
-        "povo": "Guarani Nhandewa/ Tupi Guarani"
-    },
-    
-    {
-        "imagem": "fotos/iara.jpeg",
-        "nome": "Iara Mendonça Bolgarim",
-        "professor": "Iara Mendonça Bolgarim",
-        "uf": "SP",
-        "youtube": "https://www.youtube.com/embed/yum4n1kHsGE",
-        "terra_indigena": "Terra Indígena Jaraguá",
-        "povo": "Guarani Nhandewa/ Tupi Guarani"
     },
 
     {
@@ -137,6 +126,15 @@
         "youtube": "https://www.youtube.com/embed/VIDEO_ID",
         "terra_indigena": "Terra Indígena Pindoty",
         "povo": "Guarani Mbya"
+    },
+    {
+        "imagem": "fotos/iara.jpeg",
+        "nome": "Iara Mendonça Bolgarim",
+        "professor": "Iara Mendonça Bolgarim",
+        "uf": "SP",
+        "youtube": "https://www.youtube.com/embed/yum4n1kHsGE",
+        "terra_indigena": "Terra Indígena Jaraguá",
+        "povo": "Guarani Nhandewa/ Tupi Guarani"
     },
     {
         "imagem": "fotos/rosangela.jpeg",
