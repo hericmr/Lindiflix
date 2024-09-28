@@ -47,7 +47,7 @@ function criarVideoItem(professor) {
     if (professor.povo) {
         pPovo.innerHTML = `<strong>Povo:</strong> ${professor.povo}`;
     } else {
-        pPovo.innerHTML = `<strong>Povo:</strong> Não Informado`;
+
     }
 
     // Verifica se 'uf' está presente
