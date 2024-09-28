@@ -91,7 +91,7 @@ function inserirVideos(professores) {
 
 // Função para buscar os dados dos professores de um arquivo JSON
 function buscarProfessores() {
-    fetch('profs.json')
+    fetch('professores.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
