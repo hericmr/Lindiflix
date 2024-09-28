@@ -4,15 +4,9 @@
         "nome": "Jonathan Marcolino",
         "professor": "Jonathan Marcolino",
         "aldeia": "Tereguá",
-        "uf": "Desconhecido",
         "youtube": "https://www.youtube.com/embed/rqp1SwCDnfc"
     },
-    {
-        "imagem": "",
-        "nome": "Desconhecido",
-        "uf": "Desconhecido",
-        "youtube": ""
-    },
+
     {
         "imagem": "fotos/renato.jpeg",
         "nome": "Renato da Silva Mariano",
@@ -47,7 +41,6 @@
         "nome": "Kerexu Mirim",
         "professora": "Kerexu Mirim da Silva",
         "aldeia": "Krukutu",
-        "uf": "Desconhecido",
         "youtube": "https://www.youtube.com/embed/yYBeDUKZjk4"
     },
     {
@@ -55,7 +48,6 @@
         "nome": "Abílio",
         "professor": "Abílio Fernandes",
         "aldeia": "Uru'ty.",
-        "uf": "Desconhecido",
         "youtube": "https://www.youtube.com/embed/_6PuOnVIhEU"
     },
     {
@@ -63,7 +55,6 @@
         "nome": "a Paula",
         "professor": "Paula Aparecida Baptista",
         "aldeia": "Tangará",
-        "uf": "Desconhecido",
         "youtube": "https://www.youtube.com/embed/aVnLAbow-kY?si=6xU4QtVG5mru6ZHO"
     },
     {
@@ -71,7 +62,6 @@
         "nome": "Jonathan Marcolino",
         "professor": "Jonathan Marcolino",
         "aldeia": "Tereguá",
-        "uf": "Desconhecido",
         "youtube": "https://www.youtube.com/embed/rqp1SwCDnfc"
     },
     {
@@ -105,7 +95,6 @@
     {
         "imagem": "",
         "nome": "Desconhecido",
-        "uf": "Desconhecido",
         "youtube": ""
     },
     {
