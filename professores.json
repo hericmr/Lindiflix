@@ -1,0 +1,282 @@
+[
+    {
+        "imagem": "fotos/jonathan.jpeg",
+        "nome": "Jonathan Marcolino",
+        "professor": "Jonathan Marcolino",
+        "aldeia": "Tereguá",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/rqp1SwCDnfc"
+    },
+    {
+        "imagem": "",
+        "nome": "Desconhecido",
+        "uf": "Desconhecido",
+        "youtube": ""
+    },
+    {
+        "imagem": "fotos/renato.jpeg",
+        "nome": "Renato da Silva Mariano",
+        "professor": "Renato da Silva Mariano",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/rBXZkhe6Qmo"
+    },
+    {
+        "imagem": "fotos/andreia.jpeg",
+        "nome": "Andreia Ribeiro dos Santos",
+        "professor": "Andreia Ribeiro dos Santos",
+        "aldeia": "Terra Indígena Djaiko Aty",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/dq6lps46jQw"
+    },
+    {
+        "imagem": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537057",
+        "nome": "Adão ALves",
+        "professor": "Adão Alves",
+        "aldeia": "Kopenoti (Avaí/SP)",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/3e8N8uGyIvE"
+    },
+    {
+        "imagem": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537089",
+        "nome": "Kerexu Mirim",
+        "professora": "Kerexu Mirim da Silva",
+        "aldeia": "Krukutu",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/yYBeDUKZjk4"
+    },
+    {
+        "imagem": "fotos/abilio.jpeg",
+        "nome": "Abílio",
+        "professor": "Abílio Fernandes",
+        "aldeia": "Uru'ty.",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/_6PuOnVIhEU"
+    },
+    {
+        "imagem": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537099",
+        "nome": "a Paula",
+        "professor": "Paula Aparecida Baptista",
+        "aldeia": "Tangará",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/aVnLAbow-kY?si=6xU4QtVG5mru6ZHO"
+    },
+    {
+        "imagem": "fotos/jonathan.jpeg",
+        "nome": "Jonathan Marcolino",
+        "professor": "Jonathan Marcolino",
+        "aldeia": "Tereguá",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/rqp1SwCDnfc"
+    },
+    {
+        "imagem": "fotos/iara.jpeg",
+        "nome": "Iara Mendonça Bolgarim",
+        "professor": "Iara Mendonça Bolgarim",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/yum4n1kHsGE"
+    },
+    {
+        "imagem": "fotos/edson.jpeg",
+        "nome": "Edson Rodrigues",
+        "professor": "Edson Rodrigues",
+        "aldeia": "Terra indígena Amba Porã",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/AXcJ2C_ofHo"
+    },
+    {
+        "imagem": "fotos/rodrigo.jpeg",
+        "nome": "Rodrigo Vera Mirim da Silva",
+        "professor": "Rodrigo Vera Mirim da Silva",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/5j3YEdeMraw"
+    },
+    {
+        "imagem": "",
+        "nome": "Desconhecido",
+        "uf": "Desconhecido",
+        "youtube": ""
+    },
+    {
+        "imagem": "fotos/claudinei.jpeg",
+        "nome": "Claudinei Fermino da Silva",
+        "professor": "Claudinei Fermino da Silva",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/1Ld2I2t01U8"
+    },
+    {
+        "imagem": "fotos/cledinilson.jpeg",
+        "nome": "Cledinilson Alves Marcolino",
+        "professor": "Cledinilson Alves Marcolino",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VVTfkbrvxZs"
+    },
+    {
+        "imagem": "fotos/elizabeth.jpeg",
+        "nome": "Elizabeth Conechu Damaceno",
+        "professor": "Elizabeth Conechu Damaceno",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+        "imagem": "fotos/flavio.jpeg",
+        "nome": "Flávio Dida Benites",
+        "professor": "Flávio Dida Benites",
+        "aldeia": "Terra Indígena Pindoty",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+        "imagem": "fotos/iara.jpeg",
+        "nome": "Iara Mendonça Bolgarim",
+        "professor": "Iara Mendonça Bolgarim",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/yum4n1kHsGE"
+    },
+    {
+        "imagem": "fotos/ingrid.jpeg",
+        "nome": "Ingrid Ara I Santos da Silva",
+        "professor": "Ingrid Ara I Santos da Silva",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+        "imagem": "fotos/joao.jpeg",
+        "nome": "João Batista Ortega",
+        "professor": "João Batista Ortega",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+        "imagem": "fotos/jucelino.jpeg",
+        "nome": "jucelino Gomes Euzébio",
+        "professor": "jucelino Gomes Euzébio",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+        "imagem": "fotos/kamila.jpeg",
+        "nome": "Kamila Ariellen Dina dos Santos",
+        "professor": "Kamila Ariellen Dina dos Santos",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+        "imagem": "fotos/leidiane.jpeg",
+        "nome": "Leidiane de Lima Gabriel",
+        "professor": "Leidiane de Lima Gabriel",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+        "imagem": "fotos/leonardo.jpeg",
+        "nome": "Leonardo Edileno Wera Tupã Macena",
+        "professor": "Leonardo Edileno Wera Tupã Macena",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/-BREiQHALvE"
+    },
+    {
+        "imagem": "fotos/lidiane.jpeg",
+        "nome": "Lidiane Damaceno Cotui Afonso",
+        "professor": "Lidiane Damaceno Cotui Afonso",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+        "imagem": "fotos/marcelo.jpeg",
+        "nome": "Marcelo Papa Benite",
+        "professor": "Marcelo Papa Benite",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+        "imagem": "fotos/marcio.jpeg",
+        "nome": "Marcio da Silva",
+        "professor": "Marcio da Silva",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+        "imagem": "fotos/mariana.jpeg",
+        "nome": "Mariana Benite",
+        "professor": "Mariana Benite",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+        "imagem": "fotos/marilene.jpeg",
+        "nome": "Marilene Mendonça Bolgarim",
+        "professor": "Marilene Mendonça Bolgarim",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/yum4n1kHsGE"
+    },
+    {
+        "imagem": "fotos/mario.jpeg",
+        "nome": "Mario Karai Moreira",
+        "professor": "Mario Karai Moreira",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+        "imagem": "fotos/reinaldo.jpeg",
+        "nome": "Reinaldo karai tukumbbo Peralta",
+        "professor": "Reinaldo karai tukumbbo Peralta",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+        "imagem": "fotos/roberto.jpeg",
+        "nome": "Roberto Martins da Silva",
+        "professor": "Roberto Martins da Silva",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+        "imagem": "fotos/rodrigo.jpeg",
+        "nome": "Rodrigo Vera Mirim da Silva",
+        "professor": "Rodrigo Vera Mirim da Silva",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/5j3YEdeMraw"
+    },
+    {
+        "imagem": "fotos/rosângela.jpeg",
+        "nome": "Rosângela Barbosa",
+        "professor": "Rosângela Barbosa",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+        "imagem": "fotos/rosimeire.jpeg",
+        "nome": "Rosimeire Iaiaiti Indubrasil",
+        "professor": "Rosimeire Iaiaiti Indubrasil",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+        "imagem": "fotos/severino.jpeg",
+        "nome": "Severino Cabral Ramires",
+        "professor": "Severino Cabral Ramires",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+        "imagem": "fotos/suelen.jpeg",
+        "nome": "Suelen de Oliveira",
+        "professor": "Suelen de Oliveira",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+        "imagem": "fotos/taina.jpeg",
+        "nome": "Tainá Ara Poty Ribeiro Gabriel",
+        "professor": "Tainá Ara Poty Ribeiro Gabriel",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    },
+    {
+        "imagem": "fotos/vitalino.jpeg",
+        "nome": "Vitalino Gomes euzebio",
+        "professor": "Vitalino Gomes euzebio",
+        "uf": "Desconhecido",
+        "youtube": "https://www.youtube.com/embed/VIDEO_ID"
+    }
+]
