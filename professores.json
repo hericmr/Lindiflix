@@ -6,7 +6,15 @@
         "aldeia": "Tereguá",
         "youtube": "https://www.youtube.com/embed/rqp1SwCDnfc"
     },
-
+    {
+        "imagem": "fotos/rosangela.jpeg",
+        "nome": "Rosângela Barbosa",
+        "professor": "Rosângela Barbosa",
+        "uf": "SP",
+        "youtube": "https://www.youtube.com/embed/jm-RxazV9w4",
+        "terra_indigena": "Tekoa Arandu (Capoeirão)",
+        "povo": "Guarani Mbya"
+    },
     {
         "imagem": "fotos/renato.jpeg",
         "nome": "Renato da Silva Mariano",
@@ -58,11 +66,14 @@
         "youtube": "https://www.youtube.com/embed/aVnLAbow-kY?si=6xU4QtVG5mru6ZHO"
     },
     {
-        "imagem": "fotos/jonathan.jpeg",
-        "nome": "Jonathan Marcolino",
-        "professor": "Jonathan Marcolino",
-        "aldeia": "Tereguá",
-        "youtube": "https://www.youtube.com/embed/rqp1SwCDnfc"
+        "imagem": "fotos/edson.jpeg",
+        "nome": "Edson Rodrigues",
+        "professor": "Edson Rodrigues",
+        "aldeia": "Terra indígena Amba Porã",
+        "uf": "SP",
+        "youtube": "https://www.youtube.com/embed/AXcJ2C_ofHo",
+        "terra_indigena": "Terra indígena Amba Porã",
+        "povo": "Guarani Mbya"
     },
     {
         "imagem": "fotos/iara.jpeg",
@@ -72,16 +83,6 @@
         "youtube": "https://www.youtube.com/embed/yum4n1kHsGE",
         "terra_indigena": "Terra Indígena Jaraguá",
         "povo": "Guarani Nhandewa/ Tupi Guarani"
-    },
-    {
-        "imagem": "fotos/edson.jpeg",
-        "nome": "Edson Rodrigues",
-        "professor": "Edson Rodrigues",
-        "aldeia": "Terra indígena Amba Porã",
-        "uf": "SP",
-        "youtube": "https://www.youtube.com/embed/AXcJ2C_ofHo",
-        "terra_indigena": "Terra indígena Amba Porã",
-        "povo": "Guarani Mbya"
     },
     {
         "imagem": "fotos/rodrigo.jpeg",
@@ -279,11 +280,11 @@
         "povo": "Guarani Mbya"
     },
     {
-        "imagem": "fotos/rosângela.jpeg",
+        "imagem": "fotos/rosangela.jpeg",
         "nome": "Rosângela Barbosa",
         "professor": "Rosângela Barbosa",
         "uf": "SP",
-        "youtube": "https://www.youtube.com/embed/VIDEO_ID",
+        "youtube": "https://www.youtube.com/embed/jm-RxazV9w4",
         "terra_indigena": "Tekoa Arandu (Capoeirão)",
         "povo": "Guarani Mbya"
     },
