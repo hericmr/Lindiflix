@@ -5,16 +5,19 @@
         "professor": "Jonathan Marcolino",
         "aldeia": "Tereguá",
         "youtube": "https://www.youtube.com/embed/rqp1SwCDnfc"
+        "povo": "Guarani Nhandewa/ Tupi Guarani"
     },
+    
     {
-        "imagem": "fotos/rosangela.jpeg",
-        "nome": "Rosângela Barbosa",
-        "professor": "Rosângela Barbosa",
+        "imagem": "fotos/iara.jpeg",
+        "nome": "Iara Mendonça Bolgarim",
+        "professor": "Iara Mendonça Bolgarim",
         "uf": "SP",
-        "youtube": "https://www.youtube.com/embed/jm-RxazV9w4",
-        "terra_indigena": "Tekoa Arandu (Capoeirão)",
-        "povo": "Guarani Mbya"
+        "youtube": "https://www.youtube.com/embed/yum4n1kHsGE",
+        "terra_indigena": "Terra Indígena Jaraguá",
+        "povo": "Guarani Nhandewa/ Tupi Guarani"
     },
+
     {
         "imagem": "fotos/renato.jpeg",
         "nome": "Renato da Silva Mariano",
@@ -136,13 +139,13 @@
         "povo": "Guarani Mbya"
     },
     {
-        "imagem": "fotos/iara.jpeg",
-        "nome": "Iara Mendonça Bolgarim",
-        "professor": "Iara Mendonça Bolgarim",
+        "imagem": "fotos/rosangela.jpeg",
+        "nome": "Rosângela Barbosa",
+        "professor": "Rosângela Barbosa",
         "uf": "SP",
-        "youtube": "https://www.youtube.com/embed/yum4n1kHsGE",
-        "terra_indigena": "Terra Indígena Jaraguá",
-        "povo": "Guarani Nhandewa/ Tupi Guarani"
+        "youtube": "https://www.youtube.com/embed/jm-RxazV9w4",
+        "terra_indigena": "Tekoa Arandu (Capoeirão)",
+        "povo": "Guarani Mbya"
     },
     {
         "imagem": "fotos/ingrid.jpeg",
