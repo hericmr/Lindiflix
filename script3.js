@@ -42,21 +42,6 @@ function criarVideoItem(professor) {
         pAldeia.innerHTML = `<strong>Aldeia:</strong> Não Informado`;
     }
 
-    // Verifica se 'povo' está presente
-    const pPovo = document.createElement('p');
-    if (professor.povo) {
-        pPovo.innerHTML = `<strong>Povo:</strong> ${professor.povo}`;
-    } else {
-
-    }
-
-    // Verifica se 'uf' está presente
-    const pUF = document.createElement('p');
-    if (professor.uf) {
-        pUF.innerHTML = `<strong>UF:</strong> ${professor.uf}`;
-    } else {
-        pUF.innerHTML = `<strong>UF:</strong> Não Informado`;
-    }
 
     // Adiciona os parágrafos à div de detalhes
     professorDetails.appendChild(pNome);
