@@ -241,4 +241,13 @@
         "povo": "Guarani Mbya",
         "aldeia": "Madenuá Porã"
     }
+    {
+        "imagem": "fotos/joao.jpeg",
+        "nome": "João Batista Ortega",
+        "professor": "João Batista Ortega",
+        "uf": "SP",
+        "youtube": "https://www.youtube.com/embed/A79kDuycPs4",
+        "terra_indigena": "Terra Indígena Ka'aguy hovy",
+        "povo": "Guarani Mbya"
+    },
 ]
