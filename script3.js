@@ -37,9 +37,9 @@ function criarVideoItem(professor) {
     // Verifica se 'aldeia' está presente
     const pAldeia = document.createElement('p');
     if (professor.aldeia) {
-        pAldeia.innerHTML = `<strong>Comunidade:</strong> ${professor.aldeia}`;
+        pAldeia.innerHTML = `<strong>Aldeia:</strong> ${professor.aldeia}`;
     } else {
-        pAldeia.innerHTML = `<strong>Comunidade:</strong> Não Informado`;
+        pAldeia.innerHTML = `<strong>Aldeia:</strong> Não Informado`;
     }
 
     // Verifica se 'povo' está presente
