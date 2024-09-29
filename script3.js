@@ -42,7 +42,7 @@ function criarVideoItem(professor) {
         pAldeia.innerHTML = `<strong>Aldeia:</strong> Não Informado`;
     }
 
-     Verifica se 'povo' está presente
+    // Verifica se 'povo' está presente
     const pPovo = document.createElement('p');
     if (professor.povo) {
         pPovo.innerHTML = `<strong>Povo:</strong> ${professor.povo}`;
