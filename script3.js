@@ -51,18 +51,13 @@ function criarVideoItem(professor) {
     }
 
     // Verifica se 'uf' está presente
-    const pUF = document.createElement('p');
-    if (professor.uf) {
-        pUF.innerHTML = `<strong>UF:</strong> ${professor.uf}`;
-    } else {
-        pUF.innerHTML = `<strong>UF:</strong> Não Informado`;
-    }
+
 
     // Adiciona os parágrafos à div de detalhes
     professorDetails.appendChild(pNome);
     professorDetails.appendChild(pAldeia);
     professorDetails.appendChild(pPovo);
-    professorDetails.appendChild(pUF);
+    
 
     // Adiciona a imagem e os detalhes à seção de informações
     professorInfo.appendChild(img);
