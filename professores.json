@@ -7,6 +7,7 @@
         "uf": "SP",
         "youtube": "https://www.youtube.com/embed/rBXZkhe6Qmo",
         "terra_indigena": "Aldeia Pindo-ty",
+        "aldeia": "Aldeia Pindo-ty",
         "povo": "Guarani Mbya"
     },
     {
@@ -21,7 +22,7 @@
     },
     {
         "imagem": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537057",
-        "nome": "Adão ALves",
+        "nome": "Adão Alves",
         "professor": "Adão Alves",
         "aldeia": "Kopenoti (Avaí/SP)",
         "uf": "SP",
@@ -35,6 +36,7 @@
         "professora": "Kerexu Mirim da Silva",
         "aldeia": "Krukutu",
         "youtube": "https://www.youtube.com/embed/yYBeDUKZjk4"
+        "povo": "Guarani Mbya"
     },
     {
         "imagem": "fotos/abilio.jpeg",
@@ -42,20 +44,23 @@
         "professor": "Abílio Fernandes",
         "aldeia": "Uru'ty.",
         "youtube": "https://www.youtube.com/embed/_6PuOnVIhEU"
+        "povo": "Guarani Mbya"
     },
     {
         "imagem": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537099",
         "nome": "a Paula",
         "professor": "Paula Aparecida Baptista",
         "aldeia": "Tangará",
-        "youtube": "https://www.youtube.com/embed/aVnLAbow-kY?si=6xU4QtVG5mru6ZHO"
+        "youtube": "https://www.youtube.com/embed/aVnLAbow-kY?si=6xU4QtVG5mru6ZHO",
+        "povo":"Guarani Nhandewa/ Tupi Guarani"
     },
     {
         "imagem": "fotos/jonathan.jpeg",
         "nome": "Jonathan Marcolino",
         "professor": "Jonathan Marcolino",
         "aldeia": "Tereguá",
-        "youtube": "https://www.youtube.com/embed/rqp1SwCDnfc"
+        "youtube": "https://www.youtube.com/embed/rqp1SwCDnfc",
+        "povo": "Guarani Nhandewa/ Tupi Guarani"
     },
     {
         "imagem": "fotos/iara.jpeg",
@@ -65,6 +70,7 @@
         "youtube": "https://www.youtube.com/embed/yum4n1kHsGE",
         "terra_indigena": "Terra Indígena Jaraguá",
         "povo": "Guarani Nhandewa/ Tupi Guarani"
+        "aldeia": "Terra Indígena Jaraguá"
     },
     {
         "imagem": "fotos/edson.jpeg",
@@ -84,6 +90,7 @@
         "youtube": "https://www.youtube.com/embed/5j3YEdeMraw",
         "terra_indigena": "TI Pakurity aldeia Taluari-ty",
         "povo": "Guarani Mbya"
+        "aldeia": "Aldeia Takuari-ty"
     },
     {
         "imagem": "",
@@ -98,6 +105,7 @@
         "youtube": "https://www.youtube.com/embed/1Ld2I2t01U8",
         "terra_indigena": "Terra Indígena Guarani do Aguapeú",
         "povo": "Guarani Mbya"
+        "aldeia": "Aldeia Nimuendaju"
     },
     {
         "imagem": "fotos/cledinilson.jpeg",
@@ -109,15 +117,6 @@
         "povo": "Guarani Nhandewa/ Tupi Guarani"
     },
     {
-        "imagem": "fotos/iara.jpeg",
-        "nome": "Iara Mendonça Bolgarim",
-        "professor": "Iara Mendonça Bolgarim",
-        "uf": "SP",
-        "youtube": "https://www.youtube.com/embed/yum4n1kHsGE",
-        "terra_indigena": "Terra Indígena Jaraguá",
-        "povo": "Guarani Nhandewa/ Tupi Guarani"
-    },
-    {
         "imagem": "fotos/ingrid.jpeg",
         "nome": "Ingrid Ara I Santos da Silva",
         "professor": "Ingrid Ara I Santos da Silva",
@@ -125,6 +124,7 @@
         "youtube": "https://www.youtube.com/embed/7Xt-wM3po2w ",
         "terra_indigena": "Terra Indígena Boa Vista",
         "povo": "Guarani Mbya"
+        "aldeia": "Aldeia Boa Vista"
     },
     {
         "imagem": "fotos/kamila.jpeg",
@@ -161,6 +161,7 @@
         "youtube": "https://www.youtube.com/embed/yOn8nVP6qpI",
         "terra_indigena": "Tekoa Mirim",
         "povo": "Guarani Mbya"
+        "aldeia": "Tekoa Mirim"
     },
     {
         "imagem": "fotos/marcio.jpeg",
@@ -170,6 +171,7 @@
         "youtube": "https://www.youtube.com/embed/ufv3fKPHk60",
         "terra_indigena": "Aldeia Itapuã",
         "povo": "Guarani Mbya"
+        "aldeia": "Aldeia Itapuã"
     },
     {
         "imagem": "fotos/mariana.jpeg",
@@ -179,6 +181,7 @@
         "youtube": "https://www.youtube.com/embed/mRfa7KPkoMU",
         "terra_indigena": "TI Aldeia Renascer",
         "povo": "Guarani Mbya"
+        "aldeia": "Aldeia Renascer"
     },
     {
         "imagem": "fotos/marilene.jpeg",
@@ -187,7 +190,8 @@
         "uf": "SP",
         "youtube": "https://www.youtube.com/embed/yum4n1kHsGE",
         "terra_indigena": "Terra Indígena Jaraguá, aldeia Yvyporã",
-        "povo": "Guarani Nhandewa/ Tupi Guarani"
+        "povo": "Guarani Nhandewa/ Tupi Guarani",
+        "aldeia": "Terra Indígena Jaraguá"
     },
     {
         "imagem": "fotos/reinaldo.jpeg",
@@ -196,7 +200,8 @@
         "uf": "SP",
         "youtube": "https://www.youtube.com/embed/jjl3-7MpHZg",
         "terra_indigena": "Tekoha Tupã reko",
-        "povo": "Guarani Mbya"
+        "povo": "Guarani Mbya",
+        "aldeia": "Tekoa Tupã reko"
     },
     {
         "imagem": "fotos/rodrigo.jpeg",
@@ -215,6 +220,7 @@
         "youtube": "https://www.youtube.com/embed/jm-RxazV9w4",
         "terra_indigena": "Tekoa Arandu (Capoeirão)",
         "povo": "Guarani Mbya"
+        "aldeia": "Tekoa Arandu"
     },
     {
         "imagem": "fotos/rosimeire.jpeg",
@@ -224,6 +230,7 @@
         "youtube": "https://www.youtube.com/embed/ClCXAq2uy6c",
         "terra_indigena": "Aldeia Indigena Icatu",
         "povo": "Kaingang"
+        "aldeia": "Aldeia Indigena Icatu"
     },
     {
         "imagem": "fotos/severino.jpeg",
@@ -233,5 +240,6 @@
         "youtube": "https://www.youtube.com/embed/5IrPkutF9z4", 
         "terra_indigena": "Terra Indígena Guavira-ty",
         "povo": "Guarani Mbya"
+        "aldeia": "Madenuá Porã"
     }
 ]
