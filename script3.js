@@ -1,5 +1,3 @@
-
-
 // Função para criar os elementos HTML para cada professor
 function criarVideoItem(professor) {
     // Cria a coluna
@@ -34,7 +32,6 @@ function criarVideoItem(professor) {
         pNome.innerHTML = `<strong>Professor:</strong> Não Informado`;
     }
 
-    // Verifica se 'aldeia' está presente
     const pAldeia = document.createElement('p');
     if (professor.aldeia) {
         pAldeia.innerHTML = `<strong>Comunidade:</strong> ${professor.aldeia}`;
@@ -42,7 +39,6 @@ function criarVideoItem(professor) {
         pAldeia.innerHTML = `<strong>Comunidade:</strong> Não Informado`;
     }
 
-    // Verifica se 'povo' está presente
     const pPovo = document.createElement('p');
     if (professor.povo) {
         pPovo.innerHTML = `<strong>Povo:</strong> ${professor.povo}`;
@@ -50,26 +46,23 @@ function criarVideoItem(professor) {
         pPovo.innerHTML = `<strong>Povo:</strong> Não Informado`;
     }
 
-    // Verifica se 'uf' está presente
-
-
     // Adiciona os parágrafos à div de detalhes
     professorDetails.appendChild(pNome);
     professorDetails.appendChild(pAldeia);
     professorDetails.appendChild(pPovo);
-    
 
     // Adiciona a imagem e os detalhes à seção de informações
     professorInfo.appendChild(img);
     professorInfo.appendChild(professorDetails);
 
-    // Cria o iframe do vídeo
+    // Cria o iframe do vídeo, mas usa data-src para evitar o carregamento imediato
     const iframe = document.createElement('iframe');
-    iframe.src = professor.youtube || 'https://www.youtube.com/embed/VIDEO_ID'; // Vídeo padrão caso não haja
+    iframe.dataset.src = professor.youtube || 'https://www.youtube.com/embed/VIDEO_ID'; // Vídeo padrão caso não haja
     iframe.title = `Aula do ${professor.professor || professor.professora || 'Professor'} ${professor.nome}`;
     iframe.allowFullscreen = true;
     iframe.loading = "lazy";
     iframe.frameBorder = "0";
+    iframe.className = 'lazy-video';  // Adiciona uma classe para identificação
 
     // Adiciona a seção de informações e o iframe ao container do vídeo
     videoContainer.appendChild(professorInfo);
@@ -91,12 +84,32 @@ function inserirVideos(professores) {
     }
 
     professores.forEach(professor => {
-        // Ignorar entradas incompletas (opcional)
         if (professor.nome && (professor.youtube || professor.professor || professor.professora)) {
             const videoItem = criarVideoItem(professor);
             videoGrid.appendChild(videoItem);
         }
     });
+
+    // Após inserir os vídeos, ativa o lazy loading
+    lazyLoadVideos();
+}
+
+// Função para implementar o carregamento preguiçoso dos vídeos
+function lazyLoadVideos() {
+    const videos = document.querySelectorAll('.lazy-video');
+
+    // Configura o IntersectionObserver para carregar os vídeos somente quando visíveis
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const video = entry.target;
+                video.src = video.dataset.src; // Define a fonte do vídeo apenas quando ele estiver na viewport
+                observer.unobserve(video); // Para de observar após o carregamento
+            }
+        });
+    });
+
+    videos.forEach(video => observer.observe(video));
 }
 
 // Função para buscar os dados dos professores de um arquivo JSON
