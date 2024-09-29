@@ -35,7 +35,7 @@
         "nome": "Kerexu Mirim",
         "professora": "Kerexu Mirim da Silva",
         "aldeia": "Krukutu",
-        "youtube": "https://www.youtube.com/embed/yYBeDUKZjk4"
+        "youtube": "https://www.youtube.com/embed/yYBeDUKZjk4",
         "povo": "Guarani Mbya"
     },
     {
@@ -43,7 +43,7 @@
         "nome": "Abílio",
         "professor": "Abílio Fernandes",
         "aldeia": "Uru'ty.",
-        "youtube": "https://www.youtube.com/embed/_6PuOnVIhEU"
+        "youtube": "https://www.youtube.com/embed/_6PuOnVIhEU",
         "povo": "Guarani Mbya"
     },
     {
@@ -69,7 +69,7 @@
         "uf": "SP",
         "youtube": "https://www.youtube.com/embed/yum4n1kHsGE",
         "terra_indigena": "Terra Indígena Jaraguá",
-        "povo": "Guarani Nhandewa/ Tupi Guarani"
+        "povo": "Guarani Nhandewa/ Tupi Guarani",
         "aldeia": "Terra Indígena Jaraguá"
     },
     {
@@ -89,7 +89,7 @@
         "uf": "SP",
         "youtube": "https://www.youtube.com/embed/5j3YEdeMraw",
         "terra_indigena": "TI Pakurity aldeia Taluari-ty",
-        "povo": "Guarani Mbya"
+        "povo": "Guarani Mbya",
         "aldeia": "Aldeia Takuari-ty"
     },
     {
@@ -104,7 +104,7 @@
         "uf": "SP",
         "youtube": "https://www.youtube.com/embed/1Ld2I2t01U8",
         "terra_indigena": "Terra Indígena Guarani do Aguapeú",
-        "povo": "Guarani Mbya"
+        "povo": "Guarani Mbya",
         "aldeia": "Aldeia Nimuendaju"
     },
     {
@@ -123,7 +123,7 @@
         "uf": "SP",
         "youtube": "https://www.youtube.com/embed/7Xt-wM3po2w ",
         "terra_indigena": "Terra Indígena Boa Vista",
-        "povo": "Guarani Mbya"
+        "povo": "Guarani Mbya",
         "aldeia": "Aldeia Boa Vista"
     },
     {
@@ -160,7 +160,7 @@
         "uf": "SP",
         "youtube": "https://www.youtube.com/embed/yOn8nVP6qpI",
         "terra_indigena": "Tekoa Mirim",
-        "povo": "Guarani Mbya"
+        "povo": "Guarani Mbya",
         "aldeia": "Tekoa Mirim"
     },
     {
@@ -170,7 +170,7 @@
         "uf": "SP",
         "youtube": "https://www.youtube.com/embed/ufv3fKPHk60",
         "terra_indigena": "Aldeia Itapuã",
-        "povo": "Guarani Mbya"
+        "povo": "Guarani Mbya",
         "aldeia": "Aldeia Itapuã"
     },
     {
@@ -180,7 +180,7 @@
         "uf": "SP",
         "youtube": "https://www.youtube.com/embed/mRfa7KPkoMU",
         "terra_indigena": "TI Aldeia Renascer",
-        "povo": "Guarani Mbya"
+        "povo": "Guarani Mbya",
         "aldeia": "Aldeia Renascer"
     },
     {
@@ -219,7 +219,7 @@
         "uf": "SP",
         "youtube": "https://www.youtube.com/embed/jm-RxazV9w4",
         "terra_indigena": "Tekoa Arandu (Capoeirão)",
-        "povo": "Guarani Mbya"
+        "povo": "Guarani Mbya",
         "aldeia": "Tekoa Arandu"
     },
     {
@@ -229,7 +229,7 @@
         "uf": "SP",
         "youtube": "https://www.youtube.com/embed/ClCXAq2uy6c",
         "terra_indigena": "Aldeia Indigena Icatu",
-        "povo": "Kaingang"
+        "povo": "Kaingang",
         "aldeia": "Aldeia Indigena Icatu"
     },
     {
@@ -239,7 +239,7 @@
         "uf": "SP",
         "youtube": "https://www.youtube.com/embed/5IrPkutF9z4", 
         "terra_indigena": "Terra Indígena Guavira-ty",
-        "povo": "Guarani Mbya"
+        "povo": "Guarani Mbya",
         "aldeia": "Madenuá Porã"
     }
 ]
