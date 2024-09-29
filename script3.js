@@ -43,20 +43,20 @@ function criarVideoItem(professor) {
     }
 
     // Verifica se 'povo' está presente
-    const pPovo = document.createElement('p');
-    if (professor.povo) {
-        pPovo.innerHTML = `<strong>Povo:</strong> ${professor.povo}`;
-    } else {
-        pPovo.innerHTML = `<strong>Povo:</strong> Não Informado`;
-    }
+    //const pPovo = document.createElement('p');
+    //if (professor.povo) {
+    //    pPovo.innerHTML = `<strong>Povo:</strong> ${professor.povo}`;
+    //} else {
+    //    pPovo.innerHTML = `<strong>Povo:</strong> Não Informado`;
+    //}
 
     // Verifica se 'uf' está presente
 
 
     // Adiciona os parágrafos à div de detalhes
     professorDetails.appendChild(pNome);
-    professorDetails.appendChild(pAldeia);
-    professorDetails.appendChild(pPovo);
+    //professorDetails.appendChild(pAldeia);
+    //professorDetails.appendChild(pPovo);
     
 
     // Adiciona a imagem e os detalhes à seção de informações
