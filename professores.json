@@ -1,13 +1,5 @@
 [
     {
-        "imagem": "fotos/jonathan.jpeg",
-        "nome": "Jonathan Marcolino",
-        "professor": "Jonathan Marcolino",
-        "aldeia": "Tereguá",
-        "youtube": "https://www.youtube.com/embed/rqp1SwCDnfc"
-    },
-
-    {
         "imagem": "fotos/rosangela.jpeg",
         "nome": "Rosângela Barbosa",
         "professor": "Rosângela Barbosa",
@@ -125,25 +117,6 @@
         "povo": "Guarani Nhandewa/ Tupi Guarani"
     },
     {
-        "imagem": "fotos/elizabeth.jpeg",
-        "nome": "Elizabeth Conechu Damaceno",
-        "professor": "Elizabeth Conechu Damaceno",
-        "uf": "SP",
-        "youtube": "https://www.youtube.com/embed/VIDEO_ID",
-        "terra_indigena": "Terra Indigena Vanuire",
-        "povo": "Krenak"
-    },
-    {
-        "imagem": "fotos/flavio.jpeg",
-        "nome": "Flávio Dida Benites",
-        "professor": "Flávio Dida Benites",
-        "aldeia": "Terra Indígena Pindoty",
-        "uf": "SP",
-        "youtube": "https://www.youtube.com/embed/VIDEO_ID",
-        "terra_indigena": "Terra Indígena Pindoty",
-        "povo": "Guarani Mbya"
-    },
-    {
         "imagem": "fotos/iara.jpeg",
         "nome": "Iara Mendonça Bolgarim",
         "professor": "Iara Mendonça Bolgarim",
@@ -157,26 +130,8 @@
         "nome": "Ingrid Ara I Santos da Silva",
         "professor": "Ingrid Ara I Santos da Silva",
         "uf": "SP",
-        "youtube": "https://www.youtube.com/embed/VIDEO_ID",
+        "youtube": "https://www.youtube.com/embed/7Xt-wM3po2w ",
         "terra_indigena": "Terra Indígena Boa Vista",
-        "povo": "Guarani Mbya"
-    },
-    {
-        "imagem": "fotos/joao.jpeg",
-        "nome": "João Batista Ortega",
-        "professor": "João Batista Ortega",
-        "uf": "SP",
-        "youtube": "https://www.youtube.com/embed/VIDEO_ID",
-        "terra_indigena": "Terra Indígena Ka'aguy hovy",
-        "povo": "Guarani Mbya"
-    },
-    {
-        "imagem": "fotos/jucelino.jpeg",
-        "nome": "jucelino Gomes Euzébio",
-        "professor": "jucelino Gomes Euzébio",
-        "uf": "",
-        "youtube": "https://www.youtube.com/embed/VIDEO_ID",
-        "terra_indigena": "Terra indígena Ka'aguy hovy",
         "povo": "Guarani Mbya"
     },
     {
@@ -187,15 +142,6 @@
         "youtube": "https://www.youtube.com/embed/wzXQT6O-N8c",
         "terra_indigena": "Terra Indígena Piaçaguera",
         "povo": "Guarani Nhandewa/ Tupi Guarani"
-    },
-    {
-        "imagem": "fotos/leidiane.jpeg",
-        "nome": "Leidiane de Lima Gabriel",
-        "professor": "Leidiane de Lima Gabriel",
-        "uf": "SP",
-        "youtube": "https://www.youtube.com/embed/VIDEO_ID",
-        "terra_indigena": "Terra Indígena Tenonde Porã",
-        "povo": "Guarani Mbya"
     },
     {
         "imagem": "fotos/leonardo.jpeg",
@@ -252,30 +198,12 @@
         "povo": "Guarani Nhandewa/ Tupi Guarani"
     },
     {
-        "imagem": "fotos/mario.jpeg",
-        "nome": "Mario Karai Moreira",
-        "professor": "Mario Karai Moreira",
-        "uf": "SP",
-        "youtube": "https://www.youtube.com/embed/VIDEO_ID",
-        "terra_indigena": "Aldeia Rio do Azeite",
-        "povo": "Guarani Nhandewa/ Tupi Guarani"
-    },
-    {
         "imagem": "fotos/reinaldo.jpeg",
         "nome": "Reinaldo karai tukumbbo Peralta",
         "professor": "Reinaldo karai tukumbbo Peralta",
         "uf": "SP",
         "youtube": "https://www.youtube.com/embed/jjl3-7MpHZg",
         "terra_indigena": "Tekoha Tupã reko",
-        "povo": "Guarani Mbya"
-    },
-    {
-        "imagem": "fotos/roberto.jpeg",
-        "nome": "Roberto Martins da Silva",
-        "professor": "Roberto Martins da Silva",
-        "uf": "SP",
-        "youtube": "https://www.youtube.com/embed/VIDEO_ID",
-        "terra_indigena": "Terra Indígena Guarani do Aguapeú",
         "povo": "Guarani Mbya"
     },
     {
@@ -312,24 +240,6 @@
         "uf": "SP",
         "youtube": "https://www.youtube.com/embed/5IrPkutF9z4", 
         "terra_indigena": "Terra Indígena Guavira-ty",
-        "povo": "Guarani Mbya"
-    },
-    {
-        "imagem": "fotos/suelen.jpeg",
-        "nome": "Suelen de Oliveira",
-        "professor": "Suelen de Oliveira",
-        "uf": "SP",
-        "youtube": "https://www.youtube.com/embed/VIDEO_ID",
-        "terra_indigena": "Tekoa Paranapuã",
-        "povo": "Guarani Mbya"
-    },
-    {
-        "imagem": "fotos/taina.jpeg",
-        "nome": "Tainá Ara Poty Ribeiro Gabriel",
-        "professor": "Tainá Ara Poty Ribeiro Gabriel",
-        "uf": "SP",
-        "youtube": "https://www.youtube.com/embed/VIDEO_ID",
-        "terra_indigena": "Guyra pepo",
         "povo": "Guarani Mbya"
     },
     {
