@@ -149,6 +149,7 @@ height: auto;
 .navbar-brand img.navbar-logo {
     max-height: 50px; /* Ajuste o tamanho da logo */
     margin-right: 10px;
+    margin-left: 10px;
 }
 
 .nav-link {
