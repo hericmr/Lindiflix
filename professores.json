@@ -3,7 +3,7 @@
         "imagem": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537099",
         "nome": "a Paula",
         "professor": "Paula Aparecida Baptista",
-        "aldeia": "Tangará",
+        "aldeia": "Aldeia Tangará",
         "youtube": "https://www.youtube.com/embed/aVnLAbow-kY?si=6xU4QtVG5mru6ZHO",
         "povo":"Guarani Nhandewa/ Tupi Guarani"
     },
@@ -31,7 +31,7 @@
         "imagem": "fotos/jonathan.jpeg",
         "nome": "Jonathan Marcolino",
         "professor": "Jonathan Marcolino",
-        "aldeia": "Tereguá",
+        "aldeia": "Aldeia Tereguá",
         "youtube": "https://www.youtube.com/embed/rqp1SwCDnfc",
         "povo": "Guarani Nhandewa/ Tupi Guarani"
     },
@@ -39,7 +39,7 @@
         "imagem": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537089",
         "nome": "Kerexu Mirim",
         "professora": "Kerexu Mirim da Silva",
-        "aldeia": "Krukutu",
+        "aldeia": "Aldeia Krukutu",
         "youtube": "https://www.youtube.com/embed/yYBeDUKZjk4",
         "povo": "Guarani Mbya"
     },
@@ -57,7 +57,7 @@
         "imagem": "fotos/abilio.jpeg",
         "nome": "Abílio",
         "professor": "Abílio Fernandes",
-        "aldeia": "Uru'ty.",
+        "aldeia": "Aldeia Uru'ty.",
         "youtube": "https://www.youtube.com/embed/_6PuOnVIhEU",
         "povo": "Guarani Mbya"
     },
@@ -65,7 +65,7 @@
         "imagem": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537057",
         "nome": "Adão Alves",
         "professor": "Adão Alves",
-        "aldeia": "Kopenoti (Avaí/SP)",
+        "aldeia": "Aldeia Kopenoti (Avaí/SP)",
         "uf": "SP",
         "youtube": "https://www.youtube.com/embed/3e8N8uGyIvE",
         "terra_indigena": "Terra Indígena Araribá",
@@ -113,7 +113,8 @@
         "uf": "SP",
         "youtube": "https://www.youtube.com/embed/VVTfkbrvxZs",
         "terra_indigena": "Terra Indígena Araribá, Aldeia Nimuendaju",
-        "povo": "Guarani Nhandewa/ Tupi Guarani"
+        "povo": "Guarani Nhandewa/ Tupi Guarani",
+        "aldeia": "Aldeia Nimuendaju"
     },
     {
         "imagem": "fotos/ingrid.jpeg",
@@ -133,7 +134,7 @@
         "youtube": "https://www.youtube.com/embed/wzXQT6O-N8c",
         "terra_indigena": "Terra Indígena Piaçaguera",
         "povo": "Guarani Nhandewa/ Tupi Guarani",
-        "aldeia": "Nhamandu Mirim"
+        "aldeia": "Aldeia Nhamandu Mirim"
     },
     {
         "imagem": "fotos/leonardo.jpeg",
@@ -142,7 +143,8 @@
         "uf": "SP",
         "youtube": "https://www.youtube.com/embed/-BREiQHALvE",
         "terra_indigena": "Terra Indígena Ribeirão Silveira",
-        "povo": "Guarani Mbya"
+        "povo": "Guarani Mbya",
+        "aldeia": "Aldeia Rio Silveira"
     },
     {
         "imagem": "fotos/lidiane.jpeg",
@@ -151,6 +153,7 @@
         "uf": "SP",
         "youtube": "https://www.youtube.com/embed/fSLgQd3QuRg",
         "terra_indigena": "Aldeia Vanuire",
+        "aldeia": "Aldeia Vanuire",
         "povo": "Krenak"
     },
     {
