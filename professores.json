@@ -196,6 +196,16 @@
         "aldeia": "Aldeia Renascer"
     },
     {
+    "imagem": "fotos/roberto.jpeg",
+    "nome": "Roberto de Oliveira",
+    "professor": "Roberto de Oliveira",
+    "uf": "SP",
+    "youtube": "https://www.youtube.com/embed/-tLEHM4TRhw", 
+    "terra_indigena": "Terra Indígena Guarani do Aguapeú",
+    "povo": "Guarani Mbya",
+    "aldeia": "Adeia Aguapeu"
+},
+    {
         "imagem": "fotos/marilene.jpeg",
         "nome": "Marilene Mendonça Bolgarim",
         "professor": "Marilene Mendonça Bolgarim",
