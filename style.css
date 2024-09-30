@@ -163,6 +163,6 @@ height: auto;
 /* Tamanho responsivo do texto */
 @media (max-width: 768px) {
     .navbar-brand {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 }
