@@ -1,5 +1,13 @@
 [
     {
+        "imagem": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537099",
+        "nome": "a Paula",
+        "professor": "Paula Aparecida Baptista",
+        "aldeia": "Tangará",
+        "youtube": "https://www.youtube.com/embed/aVnLAbow-kY?si=6xU4QtVG5mru6ZHO",
+        "povo":"Guarani Nhandewa/ Tupi Guarani"
+    },
+    {
         "imagem": "fotos/renato.jpeg",
         "nome": "Renato da Silva Mariano",
         "professor": "Renato da Silva Mariano",
@@ -20,14 +28,12 @@
         "povo": "Guarani Nhandewa/ Tupi Guarani"
     },
     {
-        "imagem": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537057",
-        "nome": "Adão Alves",
-        "professor": "Adão Alves",
-        "aldeia": "Kopenoti (Avaí/SP)",
-        "uf": "SP",
-        "youtube": "https://www.youtube.com/embed/3e8N8uGyIvE",
-        "terra_indigena": "Terra Indígena Araribá",
-        "povo": "Terena"
+        "imagem": "fotos/jonathan.jpeg",
+        "nome": "Jonathan Marcolino",
+        "professor": "Jonathan Marcolino",
+        "aldeia": "Tereguá",
+        "youtube": "https://www.youtube.com/embed/rqp1SwCDnfc",
+        "povo": "Guarani Nhandewa/ Tupi Guarani"
     },
     {
         "imagem": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537089",
@@ -38,6 +44,16 @@
         "povo": "Guarani Mbya"
     },
     {
+        "imagem": "fotos/rodrigo.jpeg",
+        "nome": "Rodrigo Vera Mirim da Silva",
+        "professor": "Rodrigo Vera Mirim da Silva",
+        "uf": "SP",
+        "youtube": "https://www.youtube.com/embed/5j3YEdeMraw",
+        "terra_indigena": "TI Pakurity aldeia Taluari-ty",
+        "povo": "Guarani Mbya",
+        "aldeia": "Aldeia Takuari-ty"
+    },
+    {
         "imagem": "fotos/abilio.jpeg",
         "nome": "Abílio",
         "professor": "Abílio Fernandes",
@@ -46,20 +62,14 @@
         "povo": "Guarani Mbya"
     },
     {
-        "imagem": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537099",
-        "nome": "a Paula",
-        "professor": "Paula Aparecida Baptista",
-        "aldeia": "Tangará",
-        "youtube": "https://www.youtube.com/embed/aVnLAbow-kY?si=6xU4QtVG5mru6ZHO",
-        "povo":"Guarani Nhandewa/ Tupi Guarani"
-    },
-    {
-        "imagem": "fotos/jonathan.jpeg",
-        "nome": "Jonathan Marcolino",
-        "professor": "Jonathan Marcolino",
-        "aldeia": "Tereguá",
-        "youtube": "https://www.youtube.com/embed/rqp1SwCDnfc",
-        "povo": "Guarani Nhandewa/ Tupi Guarani"
+        "imagem": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537057",
+        "nome": "Adão Alves",
+        "professor": "Adão Alves",
+        "aldeia": "Kopenoti (Avaí/SP)",
+        "uf": "SP",
+        "youtube": "https://www.youtube.com/embed/3e8N8uGyIvE",
+        "terra_indigena": "Terra Indígena Araribá",
+        "povo": "Terena"
     },
     {
         "imagem": "fotos/iara.jpeg",
@@ -80,16 +90,6 @@
         "youtube": "https://www.youtube.com/embed/AXcJ2C_ofHo",
         "terra_indigena": "Terra indígena Amba Porã",
         "povo": "Guarani Mbya"
-    },
-    {
-        "imagem": "fotos/rodrigo.jpeg",
-        "nome": "Rodrigo Vera Mirim da Silva",
-        "professor": "Rodrigo Vera Mirim da Silva",
-        "uf": "SP",
-        "youtube": "https://www.youtube.com/embed/5j3YEdeMraw",
-        "terra_indigena": "TI Pakurity aldeia Taluari-ty",
-        "povo": "Guarani Mbya",
-        "aldeia": "Aldeia Takuari-ty"
     },
     {
         "imagem": "",
@@ -202,15 +202,6 @@
         "terra_indigena": "Tekoha Tupã reko",
         "povo": "Guarani Mbya",
         "aldeia": "Tekoa Tupã reko"
-    },
-    {
-        "imagem": "fotos/rodrigo.jpeg",
-        "nome": "Rodrigo Vera Mirim da Silva",
-        "professor": "Rodrigo Vera Mirim da Silva",
-        "uf": "SP",
-        "youtube": "https://www.youtube.com/embed/5j3YEdeMraw",
-        "terra_indigena": "TI Pakurity aldeia Taluari-ty",
-        "povo": "Guarani Mbya"
     },
     {
         "imagem": "fotos/rosangela.jpeg",
