@@ -53,6 +53,14 @@
         "povo": "Guarani Mbya",
         "aldeia": "Aldeia Takuari-ty"
     },
+    { 
+        "imagem": "fotos/mariza.jpeg",
+        "nome": "Mariza da Silva",
+        "professor": "Mariza da Silva",
+        "uf": "SP",
+        "youtube": "https://www.youtube.com/embed/IsIJVA4ppOg",
+        "aldeia": "Aldeia Pegua-oty"
+    },
     {
         "imagem": "fotos/abilio.jpeg",
         "nome": "Abílio",
