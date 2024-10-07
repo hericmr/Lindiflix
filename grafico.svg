@@ -1,30 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página que reúne os vídeos feitos por estudantes da LINDI, apresentando informações e vídeos sobre as aldeias e seus professores.">
-    <meta name="keywords" content="LINDI, vídeos, aldeias, educação, professores, estudantes">
-    <meta name="robots" content="index, follow">
-    <title>Das crianças e jovens das Aldeias de São Paulo para o Mundo! - Lindi</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-
-    <!-- navbar -->
-    <div id="navbar_unifesp"></div>
-  
-    <!-- Local para o pop-up -->
-    <div id="popup-container"></div>
-    
-    <!-- Link do Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    
-    <link rel="stylesheet" href="style.css">
-
-
-    <svg
+<svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 288000 194399.99"
     id="svg2"
@@ -90,24 +64,3 @@ id="uf_35" />
     <!-- Adicione mais círculos conforme necessário -->
     </svg>
     
-    <div id="info-popup" class="info-box" style="display: none;">
-        <div id="info-content" class="info-content">
-            <!-- Este div será preenchido dinamicamente com as imagens e descrições -->
-        </div>
-        <button id="close-popup">Fechar</button>
-    </div>
-
-
-    <!-- Rodapé -->
-    <div id="footer"></div>
-
-    <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="navbarLoader.js"></script>
-    <script src="footerLoader.js"></script> 
-    <script src="script.js"></script>
-    <script src="script3.js"></script>
-    <script src="popupLoader.js"></script> <!-- Novo script para carregar o pop-up -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
