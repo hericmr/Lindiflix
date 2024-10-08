@@ -1,0 +1,31 @@
+function redirectToVideoPage(aldeiaId) {
+    const videoLinks = {
+        'aldeia1': 'https://www.youtube.com/embed/aVnLAbow-kY?si=6xU4QtVG5mru6ZHO',
+        'aldeia2': 'https://www.youtube.com/embed/rBXZkhe6Qmo',
+        'aldeia3': 'https://www.youtube.com/embed/dq6lps46jQw',
+        'aldeia4': 'https://www.youtube.com/embed/rqp1SwCDnfc',
+        'aldeia5': 'https://www.youtube.com/embed/yYBeDUKZjk4',
+        'aldeia6': 'https://www.youtube.com/embed/5j3YEdeMraw',
+        'aldeia7': 'https://www.youtube.com/embed/IsIJVA4ppOg',
+        'aldeia8': 'https://www.youtube.com/embed/_6PuOnVIhEU',
+        'aldeia9': 'https://www.youtube.com/embed/3e8N8uGyIvE',
+        'aldeia10': 'https://www.youtube.com/embed/yum4n1kHsGE',
+        'aldeia11': 'https://www.youtube.com/embed/AXcJ2C_ofHo',
+        'aldeia13': 'https://www.youtube.com/embed/1Ld2I2t01U8',
+        'aldeia14': 'https://www.youtube.com/embed/VVTfkbrvxZs',
+        'aldeia15': 'https://www.youtube.com/embed/7Xt-wM3po2w ',
+        'aldeia16': 'https://www.youtube.com/embed/wzXQT6O-N8c',
+        'aldeia17': 'https://www.youtube.com/embed/-BREiQHALvE',
+        'aldeia18': 'https://www.youtube.com/embed/fSLgQd3QuRg',
+        'aldeia19': 'https://www.youtube.com/embed/yOn8nVP6qpI',
+        'aldeia20': 'https://www.youtube.com/embed/ufv3fKPHk60',
+        'aldeia21': 'https://www.youtube.com/embed/mRfa7KPkoMU',
+        'aldeia22': 'https://www.youtube.com/embed/-tLEHM4TRhw',
+        'aldeia23': 'https://www.youtube.com/embed/yum4n1kHsGE',
+        'aldeia24': 'https://www.youtube.com/embed/jjl3-7MpHZg',
+        'aldeia25': 'https://www.youtube.com/embed/jm-RxazV9w4',
+        'aldeia26': 'https://www.youtube.com/embed/ClCXAq2uy6c',
+        'aldeia27': 'https://www.youtube.com/embed/5IrPkutF9z4',
+        'aldeia28': 'https://www.youtube.com/embed/A79kDuycPs4'
+    };
+}

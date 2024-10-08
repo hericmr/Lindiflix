@@ -6,11 +6,33 @@ function redirectToHTML(aldeiaId) {
 // Função para redirecionar para a página com o vídeo embutido
 function redirectToVideoPage(aldeiaId) {
     const videoLinks = {
-        'aldeia1': 'https://www.youtube.com/embed/5XqSBaVYfBM?si=GWLZgaRfXA-zyTaA',
-        'aldeia2': 'https://www.youtube.com/embed/A79kDuycPs4',
-        'aldeia3': 'https://www.youtube.com/embed/rqp1SwCDnfc',
-        'aldeia4': 'https://www.youtube.com/embed/aVnLAbow-kY?si=6xU4QtVG5mru6ZHO',
-        'aldeia5': 'https://www.youtube.com/embed/yum4n1kHsGE?si=iLLF-iJk4nSISgXu'
+        'aldeia1': 'https://www.youtube.com/embed/aVnLAbow-kY?si=6xU4QtVG5mru6ZHO',
+        'aldeia2': 'https://www.youtube.com/embed/rBXZkhe6Qmo',
+        'aldeia3': 'https://www.youtube.com/embed/dq6lps46jQw',
+        'aldeia4': 'https://www.youtube.com/embed/rqp1SwCDnfc',
+        'aldeia5': 'https://www.youtube.com/embed/yYBeDUKZjk4',
+        'aldeia6': 'https://www.youtube.com/embed/5j3YEdeMraw',
+        'aldeia7': 'https://www.youtube.com/embed/IsIJVA4ppOg',
+        'aldeia8': 'https://www.youtube.com/embed/_6PuOnVIhEU',
+        'aldeia9': 'https://www.youtube.com/embed/3e8N8uGyIvE',
+        'aldeia10': 'https://www.youtube.com/embed/yum4n1kHsGE',
+        'aldeia11': 'https://www.youtube.com/embed/AXcJ2C_ofHo',
+        'aldeia13': 'https://www.youtube.com/embed/1Ld2I2t01U8',
+        'aldeia14': 'https://www.youtube.com/embed/VVTfkbrvxZs',
+        'aldeia15': 'https://www.youtube.com/embed/7Xt-wM3po2w ',
+        'aldeia16': 'https://www.youtube.com/embed/wzXQT6O-N8c',
+        'aldeia17': 'https://www.youtube.com/embed/-BREiQHALvE',
+        'aldeia18': 'https://www.youtube.com/embed/fSLgQd3QuRg',
+        'aldeia19': 'https://www.youtube.com/embed/yOn8nVP6qpI',
+        'aldeia20': 'https://www.youtube.com/embed/ufv3fKPHk60',
+        'aldeia21': 'https://www.youtube.com/embed/mRfa7KPkoMU',
+        'aldeia22': 'https://www.youtube.com/embed/-tLEHM4TRhw',
+        'aldeia23': 'https://www.youtube.com/embed/yum4n1kHsGE',
+        'aldeia24': 'https://www.youtube.com/embed/jjl3-7MpHZg',
+        'aldeia25': 'https://www.youtube.com/embed/jm-RxazV9w4',
+        'aldeia26': 'https://www.youtube.com/embed/ClCXAq2uy6c',
+        'aldeia27': 'https://www.youtube.com/embed/5IrPkutF9z4',
+        'aldeia28': 'https://www.youtube.com/embed/A79kDuycPs4'
     };
 
     // Cria a página HTML com o link do vídeo correspondente
@@ -95,39 +117,146 @@ function hideInfo() {
 // Dados das aldeias, incluindo a imagem, o título e a descrição
 const aldeiaData = {
     'aldeia1': {
-        image: 'fotos/claudinei.jpeg',
-        title: 'Professor Claudinei da Silva',
-        description: 'Aldeia Nhanderepu'
-    },
+    "image": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537099",
+    "title": "Professor(a) Paula Aparecida Baptista",
+    "description": "Aldeia Tangará"
+},
     'aldeia2': {
-        image: 'fotos/joao.jpeg',
-        title: 'Professor João Batista Ortega',
-        description: 'Aldeia Jejyty'
-    },
+    "image": "fotos/renato.jpeg",
+    "title": "Professor(a) Renato da Silva Mariano",
+    "description": "Aldeia Pindo-ty"
+},
     'aldeia3': {
-        image: 'fotos/jonathan.jpeg',
-        title: 'Professor Jonhathan Marcolino',
-        description: 'Aldeia Tereguá'
-    },
+    "image": "fotos/andreia.jpeg",
+    "title": "Professor(a) Andreia Ribeiro dos Santos",
+    "description": "Terra Indígena Djaiko Aty"
+},
     'aldeia4': {
-        image: 'fotos/paula.jpeg',
-        title: 'Professora Paula Aparecida Baptista',
-        description: 'Aldeia Tangará'
-    },
-    'aldeia5': [
-        {
-            image: 'fotos/iara.jpeg',
-            title: 'Professora Iara Mendonça Bolgarim',
-            description: 'Aldeia do Jaraguá'
-        },
-        {
-            image: 'fotos/marilene.jpeg',
-            title: 'Professora Marielene Mendonça Bolgarim',
-            description: 'Aldeia do Jaraguá'
-        }
-    ]
+    "image": "fotos/jonathan.jpeg",
+    "title": "Professor(a) Jonathan Marcolino",
+    "description": "Aldeia Tereguá"
+},
+    'aldeia5': {
+    "image": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537089",
+    "title": "Professor(a) ",
+    "description": "Aldeia Krukutu"
+},
+    'aldeia6': {
+    "image": "fotos/rodrigo.jpeg",
+    "title": "Professor(a) Rodrigo Vera Mirim da Silva",
+    "description": "Aldeia Takuari-ty"
+},
+    'aldeia7': {
+    "image": "fotos/mariza.jpeg",
+    "title": "Professor(a) Mariza da Silva",
+    "description": "Aldeia Pegua-oty"
+},
+    'aldeia8': {
+    "image": "fotos/abilio.jpeg",
+    "title": "Professor(a) Abílio Fernandes",
+    "description": "Aldeia Uru'ity."
+},
+    'aldeia9': {
+    "image": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537057",
+    "title": "Professor(a) Adão Alves",
+    "description": "Aldeia Kopenoti (Avaí/SP)"
+},
+    'aldeia10': {
+    "image": "fotos/iara.jpeg",
+    "title": "Professor(a) Iara Mendonça Bolgarim",
+    "description": "Terra Indígena Jaraguá"
+},
+    'aldeia11': {
+    "image": "fotos/edson.jpeg",
+    "title": "Professor(a) Edson Rodrigues",
+    "description": "Terra indígena Amba Porã"
+},
+    'aldeia12': {
+    "image": "",
+    "title": "Professor(a) ",
+    "description": ""
+},
+    'aldeia13': {
+    "image": "fotos/claudinei.jpeg",
+    "title": "Professor(a) Claudinei Fermino da Silva",
+    "description": "Aldeia Nimuendaju"
+},
+    'aldeia14': {
+    "image": "fotos/cledinilson.jpeg",
+    "title": "Professor(a) Cledinilson Alves Marcolino",
+    "description": "Aldeia Nimuendaju"
+},
+    'aldeia15': {
+    "image": "fotos/ingrid.jpeg",
+    "title": "Professor(a) Ingrid Ara I Santos da Silva",
+    "description": "Aldeia Boa Vista"
+},
+    'aldeia16': {
+    "image": "fotos/kamila.jpeg",
+    "title": "Professor(a) Kamila Ariellen Dina dos Santos",
+    "description": "Aldeia Nhamandu Mirim"
+},
+    'aldeia17': {
+    "image": "fotos/leonardo.jpeg",
+    "title": "Professor(a) Leonardo Edileno Wera Tupã Macena",
+    "description": "Aldeia Rio Silveira"
+},
+    'aldeia18': {
+    "image": "fotos/lidiane.jpeg",
+    "title": "Professor(a) Lidiane Damaceno Cotui Afonso",
+    "description": "Aldeia Vanuire"
+},
+    'aldeia19': {
+    "image": "fotos/marcelo.jpeg",
+    "title": "Professor(a) Marcelo Papa Benite",
+    "description": "Tekoa Mirim"
+},
+    'aldeia20': {
+    "image": "fotos/marcio.jpeg",
+    "title": "Professor(a) Marcio da Silva",
+    "description": "Aldeia Itapuã"
+},
+    'aldeia21': {
+    "image": "fotos/mariana.jpeg",
+    "title": "Professor(a) Mariana Benite",
+    "description": "Aldeia Renascer"
+},
+    'aldeia22': {
+    "image": "fotos/roberto.jpeg",
+    "title": "Professor(a) Roberto Martin da Silva",
+    "description": "Adeia Aguapeu"
+},
+    'aldeia23': {
+    "image": "fotos/marilene.jpeg",
+    "title": "Professor(a) Marilene Mendonça Bolgarim",
+    "description": "Terra Indígena Jaraguá"
+},
+    'aldeia24': {
+    "image": "fotos/reinaldo.jpeg",
+    "title": "Professor(a) Reinaldo karai tukumbbo Peralta",
+    "description": "Tekoa Tupã reko"
+},
+    'aldeia25': {
+    "image": "fotos/rosangela.jpeg",
+    "title": "Professor(a) Rosângela Barbosa",
+    "description": "Tekoa Arandu"
+},
+    'aldeia26': {
+    "image": "fotos/rosimeire.jpeg",
+    "title": "Professor(a) Rosimeire Iaiaiti Indubrasil",
+    "description": "Aldeia Indigena Icatu"
+},
+    'aldeia27': {
+    "image": "fotos/severino.jpeg",
+    "title": "Professor(a) Severino Cabral Ramires",
+    "description": "Madenuá Porã"
+},
+    'aldeia28': {
+    "image": "fotos/joao.jpeg",
+    "title": "Professor(a) João Batista Ortega",
+    "description": "Aldeia Ka'aguy hovy"
+}
 };
-
 
 
 // Função para fechar o pop-up
