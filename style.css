@@ -166,7 +166,7 @@ circle {
 /* Tamanho responsivo do texto */
 @media (max-width: 768px) {
     .navbar-brand {
-        font-size: 1.2em;
+        font-size: 0.3em;
     }
 }
 
