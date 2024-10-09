@@ -138,7 +138,7 @@ const aldeiaData = {
 },
     'aldeia5': {
     "image": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537089",
-    "title": "Professor(a) ",
+    "title": "Professor(a) Kerexu Mirim da Silva ",
     "description": "Aldeia Krukutu"
 },
     'aldeia6': {
