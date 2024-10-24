@@ -1,5 +1,13 @@
 [
     {
+        "imagem": "fotos/edina.jpeg",
+        "nome": "Edina Jaxuka",
+        "professor": "Edina Jaxuka",
+        "aldeia": "Nhamandu Oua",
+        "povo": "Guarani Mbya",
+        "youtube": "https://www.youtube.com/embed/JBl34djaSHw?si=7vQxuu7FRNTO1G1D"
+    },
+    {
         "imagem": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537099",
         "nome": "a Paula",
         "professor": "Paula Aparecida Baptista",
