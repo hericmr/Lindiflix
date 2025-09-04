@@ -19,11 +19,11 @@ window.StaticHeader = StaticHeader;
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', () => {
     if (window.staticHeader === undefined) {
-      window.staticHeader = new StaticHeader();
+      window.staticHeader = new window.StaticHeader();
     }
   });
 } else {
   if (window.staticHeader === undefined) {
-    window.staticHeader = new StaticHeader();
+    window.staticHeader = new window.StaticHeader();
   }
 }

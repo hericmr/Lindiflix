@@ -32,13 +32,26 @@ class HeaderLoader {
   initializeHeader() {
     // Aguardar um pouco para garantir que o DOM foi atualizado
     setTimeout(() => {
-      if (window.StaticHeader) {
-        window.staticHeader = new window.StaticHeader();
+      if (window.StaticHeader && typeof window.StaticHeader === 'function') {
+        try {
+          window.staticHeader = new window.StaticHeader();
+          console.log('Header estático inicializado com sucesso');
+        } catch (error) {
+          console.error('Erro ao inicializar header estático:', error);
+        }
       } else {
         // Se a classe não estiver disponível, tentar novamente
+        console.log('StaticHeader não disponível, tentando novamente...');
         setTimeout(() => {
-          if (window.StaticHeader) {
-            window.staticHeader = new window.StaticHeader();
+          if (window.StaticHeader && typeof window.StaticHeader === 'function') {
+            try {
+              window.staticHeader = new window.StaticHeader();
+              console.log('Header estático inicializado com sucesso (segunda tentativa)');
+            } catch (error) {
+              console.error('Erro ao inicializar header estático (segunda tentativa):', error);
+            }
+          } else {
+            console.error('StaticHeader não encontrado após múltiplas tentativas');
           }
         }, 500);
       }
