@@ -1,7 +1,7 @@
 // popupLoader.js
 
 $(document).ready(function() {
-    $("#popup-container").load("popup.html", function(response, status, xhr) {
+    $("#popup-container").load("partials/popup.html", function(response, status, xhr) {
         if (status == "error") {
             console.error("Erro ao carregar o pop-up: " + xhr.status + " " + xhr.statusText);
         } else {

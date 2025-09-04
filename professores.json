@@ -8,8 +8,8 @@
         "youtube": "https://www.youtube.com/embed/JBl34djaSHw?si=7vQxuu7FRNTO1G1D"
     },
     {
-        "imagem": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537099",
-        "nome": "a Paula",
+        "imagem": "fotos/paula.jpeg",
+        "nome": "Paula Aparecida Baptista",
         "professor": "Paula Aparecida Baptista",
         "aldeia": "Aldeia Tangará",
         "youtube": "https://www.youtube.com/embed/aVnLAbow-kY?si=6xU4QtVG5mru6ZHO",
@@ -44,8 +44,8 @@
         "povo": "Guarani Nhandewa/ Tupi Guarani"
     },
     {
-        "imagem": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537089",
-        "nome": "Kerexu Mirim",
+        "imagem": "fotos/kerexu.jpeg",
+        "nome": "Kerexu Mirim da Silva",
         "professora": "Kerexu Mirim da Silva",
         "aldeia": "Aldeia Krukutu",
         "youtube": "https://www.youtube.com/embed/yYBeDUKZjk4",
@@ -79,7 +79,7 @@
         "povo": "Guarani Mbya"
     },
     {
-        "imagem": "http://phpu.unifesp.br/dsi/aux/fotos/fotos.php?rf=1537057",
+        "imagem": "fotos/adao.jpeg",
         "nome": "Adão Alves",
         "professor": "Adão Alves",
         "aldeia": "Aldeia Kopenoti (Avaí/SP)",
@@ -108,13 +108,9 @@
         "terra_indigena": "Terra indígena Amba Porã",
         "povo": "Guarani Mbya"
     },
+
     {
-        "imagem": "",
-        "nome": "Desconhecido",
-        "youtube": ""
-    },
-    {
-        "imagem": "fotos/claudinei.jpeg",
+        "imagem": "fotos/webp/claudinei.webp",
         "nome": "Claudinei Fermino da Silva",
         "professor": "Claudinei Fermino da Silva",
         "uf": "SP",

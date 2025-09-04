@@ -6,7 +6,7 @@ $(document).ready(function() {
     if (navbarElement.length > 0) {
         if ($("#navbar").length > 0) {
             // Se o id for 'navbar', carrega o arquivo 'navbar.html'
-            $("#navbar").load("navbar.html", function(response, status, xhr) {
+            $("#navbar").load("partials/navbar.html", function(response, status, xhr) {
                 if (status == "error") {
                     console.error("Erro ao carregar o navbar: " + xhr.status + " " + xhr.statusText);
                 } else {
@@ -15,7 +15,7 @@ $(document).ready(function() {
             });
         } else if ($("#navbar_unifesp").length > 0) {
             // Se o id for 'navbar_unifesp', carrega o arquivo 'navbar_unifesp.html'
-            $("#navbar_unifesp").load("navbar_unifesp.html", function(response, status, xhr) {
+            $("#navbar_unifesp").load("partials/navbar_unifesp.html", function(response, status, xhr) {
                 if (status == "error") {
                     console.error("Erro ao carregar o navbar_unifesp: " + xhr.status + " " + xhr.statusText);
                 } else {

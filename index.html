@@ -3,48 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página que reúne os vídeos feitos por estudantes da LINDI, das crianças mostrando suas aldeias e modos de viver.">
-    <meta name="keywords" content="LINDI, vídeos, aldeias, educação, professores, estudantes">
-    <meta name="robots" content="index, follow">
+    <meta name="description" content="Plataforma que reúne os vídeos produzidos por estudantes da LINDI, onde crianças e jovens compartilham suas aldeias, culturas e modos de viver.">
+    <meta name="keywords" content="LINDI, UNIFESP, educação indígena, aldeias, São Paulo, vídeos educativos, cultura indígena, licenciatura intercultural">
+    <meta name="author" content="LINDI - Licenciatura Intercultural Indígena">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="theme-color" content="#2c5530">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hericmr.github.io/Lindiflix/">
+    <meta property="og:title" content="Lindiflix – Das crianças e jovens das Aldeias de São Paulo para o mundo!">
+    <meta property="og:description" content="Plataforma que reúne os vídeos produzidos por estudantes da LINDI, onde crianças e jovens compartilham suas aldeias, culturas e modos de viver.">
     <meta property="og:image" content="https://github.com/hericmr/Lindiflix/raw/main/lindi3.png">
-    <meta property="og:title" content="Das crianças e jovens das Aldeias de São Paulo para o Mundo! - Lindi">
-    <title>Das crianças e jovens das Aldeias de São Paulo para o Mundo! - LINDI</title>
-    <link rel="stylesheet" href="style.css">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="LINDI - Lindiflix">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://hericmr.github.io/Lindiflix/">
+    <meta property="twitter:title" content="Lindiflix – Das crianças e jovens das Aldeias de São Paulo para o mundo!">
+    <meta property="twitter:description" content="Plataforma que reúne os vídeos produzidos por estudantes da LINDI, onde crianças e jovens compartilham suas aldeias, culturas e modos de viver.">
+    <meta property="twitter:image" content="https://github.com/hericmr/Lindiflix/raw/main/lindi3.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://hericmr.github.io/Lindiflix/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="lindi-favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="lindi-favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="lindi-apple-touch-icon.png">
+    
+    <title>Lindiflix – Das crianças e jovens das Aldeias de São Paulo para o mundo!</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="assets/css/main.css" as="style">
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" as="style">
+    
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/carousel.css">
+    <link rel="stylesheet" href="assets/css/navbar-modern.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style_videos.css">
 </head>
 
 <body>
-    <!-- barra -->
-    <div id="navbar"></div>
+    <!-- Skip link para acessibilidade -->
+    <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+    
+    <!-- Header/Navegação -->
+    <header>
+        <nav id="navbar" aria-label="Navegação principal"></nav>
+    </header>
 
-    <!-- Texto Explicação do Site -->
-    <section class="intro-text my-5">
-        <div class="container">
-            <p class="lead text-center">
-                Este site reúne alguns dos trabalhos produzidos pelos estudantes da Licenciatura Intercultural Indígena da UNIFESP em 2024 - São vídeos em que as próprias crianças das aldeias mostram o seu cotidiano, conhecimentos, brincadeiras e comunidades. Um convite para conhecer a diversidade dos povos originários de São Paulo.
-            </p>
-        </div>
-    </section>
+    <!-- Carrossel Hero -->
+    <div id="carousel-container"></div>
 
-    <!-- Conteúdo  -->
-    <div class="container mt-5">
-        <div class="row video-grid" id="videoGrid">
-            <!-- JS -->
-        </div>
-        <div id="noData" class="no-data" style="display: none;">
-            Nenhum professor encontrado.
-        </div>
-    </div> 
+    <!-- Conteúdo Principal -->
+    <main id="main-content">
+        <!-- Seção de Introdução -->
+        <section class="intro-text my-5" aria-labelledby="intro-title">
+            <div class="container">
+                <h1 id="intro-title" class="visually-hidden">Vídeos das Aldeias Indígenas de São Paulo</h1>
+                <p class="lead text-center">
+                    Este site reúne alguns dos trabalhos produzidos pelos estudantes da Licenciatura Intercultural Indígena da UNIFESP em 2024 - São vídeos em que as próprias crianças das aldeias mostram o seu cotidiano, conhecimentos, brincadeiras e comunidades. Um convite para conhecer a diversidade dos povos originários de São Paulo.
+                </p>
+            </div>
+        </section>
 
-    <!-- Rodapé -->
-    <div id="footer"></div>
+        <!-- Seção de Vídeos -->
+        <section class="videos-section" aria-labelledby="videos-title">
+            <div class="container mt-5">
+                <h2 id="videos-title" class="visually-hidden">Galeria de Vídeos dos Professores</h2>
+                <div class="video-grid" id="videoGrid" role="grid" aria-label="Vídeos dos professores indígenas">
+                    <!-- Conteúdo carregado via JavaScript -->
+                </div>
+                <div id="noData" class="no-data" style="display: none;" role="status" aria-live="polite">
+                    Nenhum professor encontrado.
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" role="contentinfo"></footer>
 
     <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="navbarLoader.js"></script> 
-    <script src="footerLoader.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script3.js"></script>
+    <script src="assets/js/utils.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" defer></script>
+    <script src="assets/js/navbarModernLoader.js" defer></script> 
+    <script src="assets/js/footerLoader.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="assets/js/carousel.js" defer></script>
+    <script src="assets/js/carouselLoader.js" defer></script>
+    <script src="assets/js/script3.js" defer></script>
 </body>
 </html>

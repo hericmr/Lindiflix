@@ -2,7 +2,7 @@
 function criarVideoItem(professor) {
     // Cria a coluna
     const colDiv = document.createElement('div');
-    colDiv.className = 'col-lg-4 col-md-6 col-sm-12 video-item';
+    colDiv.className = 'video-item';
 
     // Cria o container do vídeo
     const videoContainer = document.createElement('div');
@@ -12,11 +12,17 @@ function criarVideoItem(professor) {
     const professorInfo = document.createElement('div');
     professorInfo.className = 'professor-info';
 
-    // Cria a imagem do professor
+    // Cria a imagem do professor com lazy loading
     const img = document.createElement('img');
     img.src = professor.imagem || 'fotos/default.jpeg'; // Imagem padrão caso não haja
     img.alt = `Foto do ${professor.professor || professor.professora || 'Professor'}`;
     img.className = 'professor-img';
+    img.loading = 'lazy';
+    
+    // Adiciona classe especial se for foto padrão
+    if (professor.imagem === 'fotos/default.jpeg') {
+        img.classList.add('professor-img--default');
+    }
 
     // Cria a div para os detalhes do professor
     const professorDetails = document.createElement('div');
@@ -90,8 +96,17 @@ function inserirVideos(professores) {
         }
     });
 
-    // Após inserir os vídeos, ativa o lazy loading
-    lazyLoadVideos();
+    // Após inserir os vídeos, ativa o lazy loading usando a função do utils.js
+    if (window.LindiflixUtils && window.LindiflixUtils.lazyLoadVideos) {
+        window.LindiflixUtils.lazyLoadVideos();
+    } else {
+        lazyLoadVideos();
+    }
+    
+    // Configura navegação por teclado
+    if (window.LindiflixUtils && window.LindiflixUtils.setupKeyboardNavigation) {
+        window.LindiflixUtils.setupKeyboardNavigation();
+    }
 }
 
 // Função para implementar o carregamento preguiçoso dos vídeos
@@ -114,21 +129,26 @@ function lazyLoadVideos() {
 
 // Função para buscar os dados dos professores de um arquivo JSON
 function buscarProfessores() {
-    fetch('professores.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
-            return response.json();
-        })
-        .then(data => {
-            inserirVideos(data);
-        })
-        .catch(error => {
-            console.error('Erro ao carregar os dados dos professores:', error);
-            document.getElementById('noData').textContent = 'Erro ao carregar os dados dos professores.';
-            document.getElementById('noData').style.display = 'block';
-        });
+    // Usa a função do utils.js se disponível, senão usa a implementação local
+    if (window.LindiflixUtils && window.LindiflixUtils.buscarProfessores) {
+        window.LindiflixUtils.buscarProfessores();
+    } else {
+        fetch('professores.json')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                return response.json();
+            })
+            .then(data => {
+                inserirVideos(data);
+            })
+            .catch(error => {
+                console.error('Erro ao carregar os dados dos professores:', error);
+                document.getElementById('noData').textContent = 'Erro ao carregar os dados dos professores.';
+                document.getElementById('noData').style.display = 'block';
+            });
+    }
 }
 
 // Chama a função quando a página for carregada
