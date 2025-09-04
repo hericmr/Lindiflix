@@ -57,6 +57,11 @@ function copyAssets() {
       copyDir('assets/css', 'dist/assets/css');
     }
 
+    // Copiar pasta fotos
+    if (fs.existsSync('fotos')) {
+      copyDir('fotos', 'dist/fotos');
+    }
+
     // Copiar pasta partials
     if (fs.existsSync('partials')) {
       copyDir('partials', 'dist/partials');

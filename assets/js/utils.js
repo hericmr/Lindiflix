@@ -6,137 +6,137 @@
 // Dados consolidados das aldeias (evita duplicação entre script.js e script2.js)
 const aldeiaData = {
     'aldeia1': {
-        image: 'fotos/paula.webp',
+        image: 'fotos/webp/paula.webp',
         title: 'Professora Paula Aparecida Baptista',
         description: 'Aldeia Tangará'
     },
     'aldeia2': {
-        image: 'fotos/renato.webp',
+        image: 'fotos/webp/renato.webp',
         title: 'Professor Renato da Silva Mariano',
         description: 'Aldeia Pindo-ty'
     },
     'aldeia3': {
-        image: 'fotos/andreia.webp',
+        image: 'fotos/webp/andreia.webp',
         title: 'Professora Andreia Ribeiro dos Santos',
         description: 'Terra Indígena Djaiko Aty'
     },
     'aldeia4': {
-        image: 'fotos/jonathan.webp',
+        image: 'fotos/webp/jonathan.webp',
         title: 'Professor Jonathan Marcolino',
         description: 'Aldeia Tereguá'
     },
     'aldeia5': {
-        image: 'fotos/kerexu.webp',
+        image: 'fotos/webp/kerexu.webp',
         title: 'Professora Kerexu Mirim da Silva',
         description: 'Aldeia Krukutu'
     },
     'aldeia6': {
-        image: 'fotos/rodrigo.webp',
+        image: 'fotos/webp/rodrigo.webp',
         title: 'Professor Rodrigo Vera Mirim da Silva',
         description: 'Aldeia Takuari-ty'
     },
     'aldeia7': {
-        image: 'fotos/mariza.webp',
+        image: 'fotos/webp/mariza.webp',
         title: 'Professora Mariza da Silva',
         description: 'Aldeia Pegua-oty'
     },
     'aldeia8': {
-        image: 'fotos/abilio.webp',
+        image: 'fotos/webp/abilio.webp',
         title: 'Professor Abílio Fernandes',
         description: 'Aldeia Uru\'ity'
     },
     'aldeia9': {
-        image: 'fotos/adao.webp',
+        image: 'fotos/webp/adao.webp',
         title: 'Professor Adão Alves',
         description: 'Aldeia Kopenoti (Avaí/SP)'
     },
     'aldeia10': {
-        image: 'fotos/iara.webp',
+        image: 'fotos/webp/iara.webp',
         title: 'Professora Iara Mendonça Bolgarim',
         description: 'Terra Indígena Jaraguá'
     },
     'aldeia11': {
-        image: 'fotos/edson.webp',
+        image: 'fotos/webp/edson.webp',
         title: 'Professor Edson Rodrigues',
         description: 'Terra indígena Amba Porã'
     },
     'aldeia13': {
-        image: 'fotos/claudinei.webp',
+        image: 'fotos/webp/claudinei.webp',
         title: 'Professor Claudinei Fermino da Silva',
         description: 'Aldeia Nimuendaju'
     },
     'aldeia14': {
-        image: 'fotos/cledinilson.webp',
+        image: 'fotos/webp/cledinilson.webp',
         title: 'Professor Cledinilson Alves Marcolino',
         description: 'Aldeia Nimuendaju'
     },
     'aldeia15': {
-        image: 'fotos/ingrid.webp',
+        image: 'fotos/webp/ingrid.webp',
         title: 'Professora Ingrid Ara I Santos da Silva',
         description: 'Aldeia Boa Vista'
     },
     'aldeia16': {
-        image: 'fotos/kamila.webp',
+        image: 'fotos/webp/kamila.webp',
         title: 'Professora Kamila Ariellen Dina dos Santos',
         description: 'Aldeia Nhamandu Mirim'
     },
     'aldeia17': {
-        image: 'fotos/leonardo.webp',
+        image: 'fotos/webp/leonardo.webp',
         title: 'Professor Leonardo Edileno Wera Tupã Macena',
         description: 'Aldeia Rio Silveira'
     },
     'aldeia18': {
-        image: 'fotos/lidiane.webp',
+        image: 'fotos/webp/lidiane.webp',
         title: 'Professora Lidiane Damaceno Cotui Afonso',
         description: 'Aldeia Vanuire'
     },
     'aldeia19': {
-        image: 'fotos/marcelo.webp',
+        image: 'fotos/webp/marcelo.webp',
         title: 'Professor Marcelo Papa Benite',
         description: 'Tekoa Mirim'
     },
     'aldeia20': {
-        image: 'fotos/marcio.webp',
+        image: 'fotos/webp/marcio.webp',
         title: 'Professor Marcio da Silva',
         description: 'Aldeia Itapuã'
     },
     'aldeia21': {
-        image: 'fotos/mariana.webp',
+        image: 'fotos/webp/mariana.webp',
         title: 'Professora Mariana Benite',
         description: 'Aldeia Renascer'
     },
     'aldeia22': {
-        image: 'fotos/roberto.webp',
+        image: 'fotos/webp/roberto.webp',
         title: 'Professor Roberto Martin da Silva',
         description: 'Aldeia Aguapeu'
     },
     'aldeia23': {
-        image: 'fotos/marilene.webp',
+        image: 'fotos/webp/marilene.webp',
         title: 'Professora Marilene Mendonça Bolgarim',
         description: 'Terra Indígena Jaraguá'
     },
     'aldeia24': {
-        image: 'fotos/reinaldo.webp',
+        image: 'fotos/webp/reinaldo.webp',
         title: 'Professor Reinaldo karai tukumbbo Peralta',
         description: 'Tekoa Tupã reko'
     },
     'aldeia25': {
-        image: 'fotos/rosangela.webp',
+        image: 'fotos/webp/rosangela.webp',
         title: 'Professora Rosângela Barbosa',
         description: 'Tekoa Arandu'
     },
     'aldeia26': {
-        image: 'fotos/rosimeire.webp',
+        image: 'fotos/webp/rosimeire.webp',
         title: 'Professora Rosimeire Iaiaiti Indubrasil',
         description: 'Aldeia Indigena Icatu'
     },
     'aldeia27': {
-        image: 'fotos/severino.webp',
+        image: 'fotos/webp/severino.webp',
         title: 'Professor Severino Cabral Ramires',
         description: 'Madenuá Porã'
     },
     'aldeia28': {
-        image: 'fotos/joao.webp',
+        image: 'fotos/webp/joao.webp',
         title: 'Professor João Batista Ortega',
         description: 'Aldeia Ka\'aguy hovy'
     }

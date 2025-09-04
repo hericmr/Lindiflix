@@ -77,15 +77,23 @@ if (window.PUBLIC_URL) {
 ## Scripts de Deploy
 
 ```bash
-# Deploy com build otimizado + cópia de assets (recomendado)
+# Deploy direto dos arquivos atuais (RECOMENDADO)
+npm run deploy
+
+# Deploy com build otimizado + cópia de assets (experimental)
 npm run deploy-build
 
 # Build + cópia de assets (sem deploy)
 npm run build-copy
-
-# Deploy direto dos arquivos atuais
-npm run deploy
 ```
+
+## ⚠️ Nota Importante
+
+O deploy direto (`npm run deploy`) é a opção recomendada porque:
+- Evita problemas de caminhos absolutos gerados pelo Vite
+- Mantém a estrutura original dos arquivos
+- Funciona perfeitamente com GitHub Pages
+- Mais simples e confiável
 
 ## URLs do Site
 
