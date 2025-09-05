@@ -10,23 +10,11 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         contato: resolve(__dirname, 'contato.html'),
-        mapa: resolve(__dirname, 'mapa.html'),
-        popup: resolve(__dirname, 'popup.html')
-      },
-      output: {
-        manualChunks: {
-          vendor: ['jquery'],
-          bootstrap: ['bootstrap']
-        }
+        mapa: resolve(__dirname, 'mapa.html')
       }
     },
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true,
-        drop_debugger: true
-      }
-    }
+    minify: false, // Desabilitar minificação para evitar problemas
+    copyPublicDir: true
   },
   plugins: [
     // Plugin para otimizar imagens
