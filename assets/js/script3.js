@@ -69,8 +69,6 @@ function criarVideoItem(professor) {
     iframe.loading = "lazy";
     iframe.frameBorder = "0";
     iframe.className = 'lazy-video';  // Adiciona uma classe para identificação
-    iframe.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
-    iframe.referrerPolicy = "strict-origin-when-cross-origin";
 
     // Adiciona a seção de informações e o iframe ao container do vídeo
     videoContainer.appendChild(professorInfo);
