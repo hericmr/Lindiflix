@@ -12,11 +12,5 @@ class StaticHeader {
   }
 }
 
-// Inicializar quando o DOM estiver pronto
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', () => {
-    window.StaticHeader = new StaticHeader();
-  });
-} else {
-  window.StaticHeader = new StaticHeader();
-}
+// Disponibilizar a classe StaticHeader globalmente
+window.StaticHeader = StaticHeader;
