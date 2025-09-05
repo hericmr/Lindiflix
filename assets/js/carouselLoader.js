@@ -16,13 +16,8 @@ class HeaderLoader {
     }
 
     try {
-      const response = await fetch(this.headerPath);
-      
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      
-      const html = await response.text();
+      // Usar a função loadResource da configuração global
+      const html = await window.loadResource(this.headerPath);
       this.container.innerHTML = html;
       
       // Inicializar header após carregar o HTML
