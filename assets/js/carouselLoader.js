@@ -17,7 +17,14 @@ class HeaderLoader {
 
     try {
       // Usar a função loadResource da configuração global
-      const html = await window.loadResource(this.headerPath);
+      let html = await window.loadResource(this.headerPath);
+      
+      // Substituir caminhos relativos por absolutos usando buildUrl
+      if (window.buildUrl) {
+        html = html.replace(/src="\.\/assets\//g, `src="${window.buildUrl('assets/')}`);
+        html = html.replace(/srcset="\.\/assets\//g, `srcset="${window.buildUrl('assets/')}`);
+      }
+      
       this.container.innerHTML = html;
       
       // Inicializar header após carregar o HTML

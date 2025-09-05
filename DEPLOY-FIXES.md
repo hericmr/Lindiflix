@@ -17,6 +17,11 @@
 
 **Solução**: Implementados caminhos absolutos baseados na configuração `PUBLIC_URL`.
 
+### 4. Fotos dos professores não encontradas (404)
+**Problema**: Fotos dos professores não carregavam porque estavam referenciadas incorretamente.
+
+**Solução**: Corrigidas todas as referências de `fotos/nome.webp` para `fotos/webp/nome.webp` e incluída pasta `fotos` no deploy.
+
 ## Arquivos Modificados
 
 ### 1. `assets/js/config.js` (NOVO)
@@ -39,7 +44,7 @@
 
 ### 6. `copy-assets.js` (NOVO)
 - Script para copiar arquivos estáticos para a pasta `dist`
-- Garante que todos os recursos (JS, CSS, imagens, partials) sejam incluídos no deploy
+- Garante que todos os recursos (JS, CSS, imagens, fotos, partials) sejam incluídos no deploy
 
 ### 7. `package.json`
 - Adicionado script `build-copy` que combina build + cópia de assets
