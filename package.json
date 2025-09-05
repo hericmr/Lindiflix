@@ -5,8 +5,7 @@
   "main": "convert-images.js",
   "scripts": {
     "convert-images": "node convert-images.js",
-    "convert-carousel": "node convert-carrossel.js",
-    "optimize": "npm run convert-images && npm run convert-carousel",
+    "optimize": "npm run convert-images",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
