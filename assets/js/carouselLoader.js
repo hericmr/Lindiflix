@@ -75,15 +75,19 @@ class HeaderLoader {
         <div class="hero-fallback-content">
           <picture>
             <source 
-              srcset="${imagePath}-1200w.webp 1200w,
+              srcset="${imagePath}-1600w.webp 1600w,
+                      ${imagePath}-1200w.webp 1200w,
+                      ${imagePath}-1000w.webp 1000w,
                       ${imagePath}-800w.webp 800w,
+                      ${imagePath}-600w.webp 600w,
                       ${imagePath}-400w.webp 400w"
               sizes="100vw"
               type="image/webp">
             <img 
               src="${imagePath}.webp" 
               alt="Turma 2024 da Licenciatura Intercultural Indígena da UNIFESP"
-              class="hero-fallback-img">
+              class="hero-fallback-img"
+              loading="eager">
           </picture>
           <div class="hero-fallback-text">
             <h2>Turma 2024</h2>
