@@ -46,18 +46,22 @@ class HeaderLoader {
   }
 
   showFallback() {
+    // Usar caminhos absolutos corretos para GitHub Pages
+    const baseUrl = window.PUBLIC_URL || '';
+    const imagePath = `${baseUrl}/assets/images/carousel/turma24`;
+    
     this.container.innerHTML = `
       <section class="hero-fallback" role="region" aria-label="Imagem de destaque">
         <div class="hero-fallback-content">
           <picture>
             <source 
-              srcset="assets/images/carousel/turma24-1200w.webp 1200w,
-                      assets/images/carousel/turma24-800w.webp 800w,
-                      assets/images/carousel/turma24-400w.webp 400w"
+              srcset="${imagePath}-1200w.webp 1200w,
+                      ${imagePath}-800w.webp 800w,
+                      ${imagePath}-400w.webp 400w"
               sizes="100vw"
               type="image/webp">
             <img 
-              src="assets/images/carousel/turma24.webp" 
+              src="${imagePath}.webp" 
               alt="Turma 2024 da Licenciatura Intercultural Indígena da UNIFESP"
               class="hero-fallback-img">
           </picture>
